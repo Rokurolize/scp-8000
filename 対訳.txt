@@ -1,0 +1,2611 @@
+[[div style="display: none;"]]
+[[include component:image-block name=https://scp-wiki.wdfiles.com/local--files/scp-8000/greatthumbnail|caption=.]]
+[[/div]]
+
+[[include :scp-jp:theme:black-highlighter-theme]]
+[[include :scp-jp:component:bhl-dark-sidebar]]
+[[include :scp-jp:component:centered-header-bhl]]
+[[include :scp-jp:component:toggle-sidebar-bhl]]
+[[include :scp-jp:component:acs-animation]]
+[[module CSS]]
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800&display=swap');
+
+:root {
+    --timeScale: 1.5;
+    --red: 176, 216, 247;
+     --medium-accent: var(--red);
+     --cutColour: #fafafa;
+     --barColour: var(--red);
+     --toggle-border-color: rgb(var(--red));
+     --toggle-icon-color: rgb(var(--red));
+     --mono-font: 'IBM Plex Mono', monospace;
+     --background-gradient-distance: 20rem;
+     --background-gradient-color: var(--red);
+     --dark-accent: var(--red);
+     --barColour: var(--red);
+     --bright-accent: var(--red);
+
+     --link-color: 140, 199, 245;
+     --visited-link-color: 176, 216, 247;
+     --hover-link-color: 176, 216, 247;
+
+    --logo-image: url("https://nu-scptheme.github.io/Black-Highlighter/img/logo.svg");
+}
+
+#content-wrap {
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg width='48' height='64' viewBox='0 0 48 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M48 28v-4L36 12 24 24 12 12 0 24v4l4 4-4 4v4l12 12 12-12 12 12 12-12v-4l-4-4 4-4zM8 32l-6-6 10-10 10 10-6 6 6 6-10 10L2 38l6-6zm12 0l4-4 4 4-4 4-4-4zm12 0l-6-6 10-10 10 10-6 6 6 6-10 10-10-10 6-6zM0 16L10 6 4 0h4l4 4 4-4h4l-6 6 10 10L34 6l-6-6h4l4 4 4-4h4l-6 6 10 10v4L36 8 24 20 12 8 0 20v-4zm0 32l10 10-6 6h4l4-4 4 4h4l-6-6 10-10 10 10-6 6h4l4-4 4 4h4l-6-6 10-10v-4L36 56 24 44 12 56 0 44v4z' fill='%23eff7fd' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+#page-content hr {
+border-top: none;
+height: .05em;
+background: #454545;
+}
+
+.info-container .collapsible-block-folded a{
+color: #FFF;}
+.info-container .collapsible-block-unfolded-link a{
+color: #FFF;
+}
+
+.info-container .collapsible-block-folded a{
+color: #FFF;}
+.info-container .collapsible-block-unfolded-link a{
+color: #FFF;
+}
+
+#page-content > .collapsible-block {
+    display: block;
+    text-align: center;
+    padding: .8em;
+    background-color: #e3e3e3;
+    border-top: 0.125rem dashed #b5b5b5;
+    border-bottom: 0.125rem dashed #b5b5b5;
+}
+
+#page-content > .collapsible-block .collapsible-block-content {
+    text-align: left;
+}
+
+blockquote,
+div.blockquote {
+    border: 0.125rem solid #d4d4d4;
+    background-color: #F5F5F5;
+}
+
+.interview{
+    border:solid 2px #d4d4d4;
+    background:#F5F5F5;
+    width:90%;
+    padding:1px 15px;
+    margin: 10px auto;
+}
+
+.addendum{
+    border:solid 1px #5e5e5e;
+    background:#ffffff;
+    width:90%;
+    padding:10px 15px;
+    margin: 10px auto;
+}
+
+.paper{
+    border-top:solid 2px #b0d8f7;
+    border-bottom:solid 2px #b0d8f7;
+    background:#fafafa;
+    width:60%;
+    padding:1px 15px;
+    margin: 10px auto;
+}
+
+.title{
+    font-family: 'Big Shoulders Display', cursive;
+    text-align: center;
+    font-size: 110%;
+}
+
+.ooo{
+    border-right:solid 2px #6bb6f0;
+    border-left:solid 2px #6bb6f0;
+    background:#F5F5F5;
+    width:90%;
+    padding:1px 15px;
+    margin: 10px auto;
+}
+
+.testfile{
+    border:solid 3px #6bb6f0;
+    background: #f5fafe;
+    width:90%;
+    padding:1px 15px;
+    margin: 10px auto;
+}
+
+.testvideo{
+    background:#deeffc;
+    width:90%;
+    padding:1px 15px;
+    margin: 10px auto;
+}
+
+.info-container{
+--barColour: #b0d8f7;
+}
+
+#page-title{display:none}
+
+[[/module]]
+
+[[=]]
+[[module Rate]]
+[[/=]]
+
+[[div style="text-align: center; margin-top: -20px;"]]
+[[size 80%]]##757575|by PlaguePJP##[[/size]]
+[[/div]]
+
+
+[[include :scp-jp:component:info-ayers
+|lang=en[!-- EN/RU/KO/CN/FR/PL/ES/TH/JP/DE/IT/UA/PTBR --]
+|page=scp-7494[!-- url of your page on the scp wiki --]
+|authorPage=http://www.scp-wiki.net/plaguepjp[!-- link to your author page --]
+|comments= Pretty Good Seal - PlaguePJP
+]]
+
+[[div]]
+[[include :scp-jp:component:anomaly-class-bar-source
+|item-number= 8000
+|clearance= 5
+|container-class= safe
+|secondary-class= none
+|disruption-class= none
+|risk-class= none
+]]
+
+[[include :scp-jp:component:customizable-acs
+|containment-class= safe
+|containment-image= https://scp-wiki.wdfiles.com/local--files/component%3Aanomaly-class-bar/safe-icon.svg
+|containment-color= 176, 216, 247
+|inc-neutralized-layout = --]]]
+
+[[include :scp-jp:component:customizable-acs
+|clearance-five= 176, 216, 247
+|inc-clearance= --]]]
+[[/div]]
+
+-----
+
+[[div class="scp-image-block block-center" style="width:100%;"]]
+[[image https://scp-wiki.wdfiles.com/local--files/scp-8000/thegreatseal.png style="width:100%;" link=#]]
+[[div class="scp-image-caption" style="width:100%;"]]
+SCP-8000。
+[[/div]]
+[[/div]]
+
+-----
+
+
+**Special Containment Procedures:** SCP-8000 is currently uncontained.
+**特別収容プロトコル:** SCP-8000は現在未収容です。
+
+**Description:** SCP-8000 is a gigantic, serpentine entity resembling a harbor seal (//Phoca vitulina//) residing within Site-322. The exact length of SCP-8000 is unknown, as its tail has never been located; however, estimates range upwards to 150 meters. Instead of bounding, sliding, or swimming, SCP-8000 is capable of self-propelled flight along with phasing through solid objects, and precognition.
+**説明:** SCP-8000はサイト-322内に存在するゼニガタアザラシ (//Phoca vitulina//) に類似した巨大なヘビ型実体です。SCP-8000の尾は現在までに発見されていないために正確な全長は不明ですが、150m以上であると推定されています。SCP-8000は跳ねる、滑る、泳ぐ代わりに、固体物を透過しながらの自己推進飛行と予知が可能です。
+
+SCP-8000 is sapient, capable of speech, and highly intelligent. Additionally, SCP-8000 can create temporary dimensional gateways at will. It is hypothesized that SCP-8000 has been connected to baseline reality from an unknown, extradimensional location. The method or reason SCP-8000 exists in present reality has not been discovered.
+SCP-8000は高度な知性と知能を持ち、会話が可能です。さらに、SCP-8000は一時的な次元ゲートウェイを自由に生成することが可能です。SCP-8000は未知の異次元空間から基底現実に接続していると仮定されています。SCP-8000が現在の現実世界に存在する手段や理由は解明されていません。
+
+As of documentation, SCP-8000 is one of two living beings on Earth.
+本文書の作成時点で、SCP-8000は地球上に2体存在する生命体のうちの1体です。
+
+@@ @@
+
+[[div class="ooo"]]
+
+//Director Paul Lague barges into a Site-322 meeting space. He looks intently at a report as he moves toward his chair.//
+//ポール・ラグー管理官がサイト-322の会議室へと入室する。報告書に集中しながら椅子の方へ歩いていく。//
+
+**Lague:** Jer, I'm gonna be honest with you, there's not— The hell are you?
+**ラグー:** ジェル、正直に言っておくが、今の私は――何だ、お前は。
+
+//SCP-8000 is seated across the table.//
+//SCP-8000が対面に座っている。//
+
+**SCP-8000:** Hi, Mr. Paul!
+**SCP-8000:** やあ、ポールさん！
+
+**Lague:** I— Where's... uh?
+**ラグー:** 私は――ここは……どういうことだ？
+
+**SCP-8000:** It's just you and I today. Sit. Come on. I don't bite.
+**SCP-8000:** 今は君と僕だけだよ。さあこっちに来て、座って。噛みつきやしないからさ。
+
+**Lague:** I'm very confused. Are you a seal?
+**ラグー:** とても混乱しているんだが……君はアザラシか？
+
+**SCP-8000:** What are you doing here?
+**SCP-8000:** ここで何をするつもりだったの？
+
+**Lague:** I— I don't remember. I think I had a meeting. What are //you// doing here?
+**ラグー:** それは――思い出せん。会議があったと思うのだが。君こそ、ここで何を？
+
+**SCP-8000:** I know enough about you to know what makes you tick. I promise to be honest with you as long as you're honest with me.
+**SCP-8000:** 僕は君がどんな人物かよく知ってるんだ。なにが君を突き動かすのかをね。君が正直に話す限り僕も正直に話すよ、約束だ。
+
+**Lague:** Alright. Uh. You're a long seal that talks? Did you voluntarily let yourself in here?
+**ラグー:** わかった。あー……君は言葉を話す長いアザラシか？自分の意思でここへ？
+
+**SCP-8000:** Yes.
+**SCP-8000:** そうだよ。
+
+**Lague:** My job is to lock things like you up in cages permanently.
+**ラグー:** 君のようなものを永久的に檻へ閉じ込めておくことこそが私の仕事だ。
+
+**SCP-8000:** That won't be necessary. I've done the research and documentation on myself for you.
+**SCP-8000:** 必要ないよ。君のために僕自身の調査と文書化を済ませておいたんだ。
+
+//SCP-8000 nudges the SCP-8000 documentation towards Lague.//
+//SCP-8000はSCP-8000の報告書をラグーへと軽く押し出す。//
+
+**Lague:** Why the 8000 slot?
+**ラグー:** 何故8000番なんだ？
+
+**SCP-8000:** I didn't choose that.
+**SCP-8000:** 僕が選んだ訳じゃないからね。
+
+**Lague:** You wrote it.
+**ラグー:** 書いたのは君だろう。
+
+**SCP-8000:** Yes, but that was out of my hands.
+**SCP-8000:** うん。でも僕の手から離れたところで決まったことなんだ。
+
+**Lague:** Do you have a tail?
+**ラグー:** 尻尾はあるのか？
+
+**SCP-8000:** That's your biggest concern?
+**SCP-8000:** それが一番訊きたいこと？
+
+**Lague:** It's an odd detail to write about. Can't you infer?
+**ラグー:** 妙なことが書いてあるじゃないか。尻尾の有無くらい推測できないのか？
+
+**SCP-8000:** I've never seen my tail. I wouldn't confirm something I have no evidence of.
+**SCP-8000:** 自分の尻尾を見たことがないからね、根拠のないことを認めないことにしてるんだ。
+
+**Lague:** You can slither through here, and I can confirm whether you have a tail.
+**ラグー:** 尻尾があるかどうかはここを這い回っていけば確認できるだろう。
+
+**SCP-8000:** Excuse you, I float. Daintily and whimsically.
+**SCP-8000:** む、失礼な！僕は浮いてるんだよ。優雅に、気まぐれにね。
+
+**Lague:** Whatever. Who took this picture?
+**ラグー:** まぁいいか。写真は誰が？
+
+**SCP-8000:** You do, in about six or seven minutes.
+**SCP-8000:** 君だよ。大体6、7分後に。
+
+**Lague:** What are you talking about?
+**ラグー:** 何を言ってるんだ？
+
+**SCP-8000:** Mr. Paul, will you spend one day with me? I know the eventual answer, but I need to go through this song and dance regardless.
+**SCP-8000:** ポールさん、一日だけ僕と過ごしてくれないかな。最終的な答えは知ってるんだけど、とにかくこの長ったらしい前置きを終わらせないといけないんだ。
+
+//SCP-8000 makes a biting motion. It latches onto the air, gripping the space with its jaw. The entity pulls its head to the left, tearing a rip into present reality.//
+//SCP-8000は何かを噛むような仕草をする。何もない虚空を掴むと、その空間に噛み付く。実体は頭部を左へ動かし、現在の現実を引き裂く。//
+
+//SCP-8000 flies through the gateway and peeks its head out towards Lague.//
+//SCP-8000は次元ゲートウェイを通り抜け、ラグーに向かって顔を覗かせる。//
+
+**SCP-8000:** It's right through here.
+**SCP-8000:** ここを通るんだよ。
+
+**Lague:** Hold on.
+**ラグー:** ちょっと待てよ。
+
+**SCP-8000:** Yes, yes. 'How could you ever trust me?' Ask me whatever you want, and I will be truthful.
+**SCP-8000:** はいはい、言いたいことはわかってるよ。『信用できるわけがない。』何でも聞いてよ。そしたら正直に答えるから。
+
+//SCP-8000 raises its right flipper.//
+//SCP-8000は右ヒレを上げる。//
+
+**SCP-8000:** I swear on those magazines you keep hidden in your desk drawers.
+**SCP-8000:** 君が机の引き出しに隠してる雑誌にヒレをついて誓うよ[[footnote]]**訳注:** アメリカ大統領の就任式における宣誓 (右手を掲げ、左手を聖書に置いて誓いの言葉を立てる) を元にしていると思われる。[[/footnote]]。
+
+**Lague:** Fuck off.
+**ラグー:** 失せろ。
+
+**SCP-8000:** Rude.
+**SCP-8000:** ひどいじゃないか。
+
+**Lague:** You're not going to kill me?
+**ラグー:** 私を殺すつもりなんじゃないのか？
+
+**SCP-8000:** Wasteful.
+**SCP-8000:** そんなことは無駄だよ。
+
+**Lague:** Eat me?
+**ラグー:** では喰うつもりか？
+
+**SCP-8000:**  My craving for human flesh has long since passed.
+**SCP-8000:** 人肉にはとっくに飽きてしまったもので。
+
+**Lague:** Is that a joke?
+**ラグー:** ジョークか？
+
+**SCP-8000:** Yes. So touchy. Eating you would be redundant.
+**SCP-8000:** まあね。ずいぶん神経質なんだね。別に君を食べる必要はない。
+
+**Lague:** What about torturing me for millions of years? Burning my family alive in front of me? Driving me to insanity over and over again? Anything like that on the table?
+**ラグー:** では数百万年に亘って私を拷問するのはどうだ？目の前で家族を生きたまま焼くのは？何度も何度も発狂させるのは？何かしらその手の酷いことを考えているんじゃないだろうな？
+
+**SCP-8000:** How oddly specific.
+**SCP-8000:** やけに具体的だね。
+
+**Lague:** Answer.
+**ラグー:** 答えてくれ。
+
+**SCP-8000:** Gratuitous and reckless.
+**SCP-8000:** 無意味だし無謀だよ。
+
+**Lague:** I don't know what I'm supposed to do here.
+**ラグー:** ここで私に何をしろと？
+
+**SCP-8000:** Mr. Paul, I'd just like to spend the day with you.
+**SCP-8000:** ポールさん、今日の一日を君と過ごしたいだけなんだ。
+
+**Lague:** You said that.
+**ラグー:** それはさっき聞いた。
+
+**SCP-8000:** I'm going to go into this rift very slowly. These things don't stay open long, and they're a real pain to open again. So please, save us both the trouble. You wouldn't want to create a paradox by not taking the picture you just saw, would you, Mr. Paul?
+**SCP-8000:** 裂け目にはゆっくり入るつもり。長くは開けておけないし、もう一度開くのは本当に骨が折れるんだ。お願いだから、お互い手間を掛けさせないで。さっきの写真を撮らなかったせいでパラドックスが起きるのも嫌だよね？ポールさん。
+
+//SCP-8000 reenters the gateway. Director Lague stares at it as the edges of the tear slowly repair itself.//
+//SCP-8000がゲートウェイへ再び進入する。裂け目の淵が徐々に修復される中、ラグー管理官は目を見開いてそこを見つめている。//
+
+
+[[/div]]
+
+@@ @@
+
+[[div class="testfile"]]
+[[=]]
+[[size 135%]] **RECOVERED DOCUMENTATION 8000.1** [[/size]]
+[[size 135%]] **回収された文書 8000.1** [[/size]]
+//02/13/2024//
+//2024/02/13//
+[[/=]]
+
+**Context:** Director Paul Lague was ordered to a meeting with Ethics Committee Liaison Jeremiah Cimmerian regarding his behavior as Site-322's Director.
+**経緯:** ポール・ラグー管理官はサイト-322の管理官としての行動に関し、倫理委員会連絡員のジェレミア・シメリアンとの面会を命じられた。
+
+[[div class="interview"]]
+= **TRANSCRIPT**
+= **書き起こし**
+-----
+= **<<BEGIN LOG>>**
+= **<<ログ開始>>**
+
+**Cimmerian:** How do you think you've been doing?
+**シメリアン:** 近頃の行いについて、君自身はどう考えている？
+
+**Lague:** The fact you're here isn't a confidence booster.
+**ラグー:** 君がここにいることは自信につながらないな。
+
+**Cimmerian:** We consider each other friends, right?
+**シメリアン:** 私たちは友人同士だ。そうだろう？
+
+//(Silence.)//
+//(沈黙)//
+
+**Lague:** Okay.
+**ラグー:** そうだな。
+
+**Cimmerian:** Cutting to the chase, you've missed twelve of the last fourteen O4 meetings, your Site's overall productivity — anomaly containment, research endeavors, //et cetera// — has plummeted over the last three months, I have sixteen different complaints here about an odor of "trash and shame" originating from your office, and people have been telling me that you're sleeping during working hours.
+**シメリアン:** 本題に入ろう。君は直近14回のO4会議のうち12回を欠席し、サイトの全体的な生産性――オブジェクトの収容や研究活動などをこの3ヶ月で急落させた。君のオフィスから発生している「ゴミと恥」の悪臭について16件の異なる苦情が寄せられている。さらには、勤務中に君が居眠りしているという者もいる。
+
+**Lague:** Hm.
+**ラグー:** ふむ。
+
+**Cimmerian:** Do you deny these claims?
+**シメリアン:** 否認するか？
+
+**Lague:** I don't know. I— I'm just— Never mind.
+**ラグー:** わからない。私はただ――いや、気にしないでくれ。
+
+**Cimmerian:** Burnout?
+**シメリアン:** 働き過ぎたのか？
+
+**Lague:** Maybe? I think I'm just in a lull.
+**ラグー:** 恐らくは。スランプなだけだと思う。
+
+//(Cimmerian looks at Lague silently.)//
+//(シメリアンは無言でラグーを見る)//
+
+**Lague:** I don't know if I'm depressed or what even else it could be. I sit down in my chair, do whatever bullshit paperwork I need to do for the day, assign whatever projects are left over, and stare at the screen until I can go back home. I'm //bored.// Everything is boring.
+**ラグー:** 鬱屈しているのか、それ以外の何かなのかはわからない。椅子に座り、その日のうちにしなければならない事務はどれだけデタラメだろうとこなし、残ったどんなプロジェクトでも割り当て、そして家に帰れる時間になるまで画面を見つめている。退屈だ。全てがつまらない。
+
+**Cimmerian:** This is probably stemming from a bigger issue.
+**シメリアン:** どうももっと大きな問題に起因しているようだ。
+
+**Lague:** The sun is hot.
+**ラグー:** 太陽が暑い。
+
+**Cimmerian:** When did all this start?
+**シメリアン:** いつからこうなった？
+
+**Lague:** I was researching this anomaly. I can't be bothered to remember. And, like — I don't know — I sat there looking at this bullshit file of a bullshit anomaly and felt it was all for nothing. I think it killed the spark.
+**ラグー:** あの異常について調べていた。思い出すのも面倒だ。で――よくわからないが――デタラメアノマリーのデタラメファイルを見ながら座っていると、全てが無駄だと感じた。それでやる気がなくなったんだと思う。
+
+**Cimmerian:** It happens. Look, Paul, I've dealt with a lot of people experiencing the same issues you are. How long have you been a Director?
+**シメリアン:** そういう時もある。なあ、ポール。私は君と同じような問題を抱えた人とたくさん向き合ってきた。管理官になって何年だ？
+
+**Lague:** Eight years.
+**ラグー:** 8年。
+
+**Cimmerian:** Oh. Well, that's quicker than usual.
+**シメリアン:** あー……普通より早いな。
+
+**Lague:** What's the point of whining? I'm doing the work I need to do. I'll pick it up.
+**ラグー:** 泣き言を言って意味があるのか？するべき仕事はしている。取りに行こう。
+
+**Cimmerian:** Tell me what's going on. Why do you feel this way? Please, I'm here to help you.
+**シメリアン:** 何があったのか教えてくれ。何故そう感じる？どうか私を頼ってくれ。
+
+**Lague:** Why? There's no point. None! I've had enough. Just— just give me a second to get myself together, and I'll get back to it. I appreciate it, Jer.
+**ラグー:** 何故って？無意味だ、何もかも！もう沢山だ。ただ…ちょっと落ち着かせる時間をくれ。そうしたらまた戻ってくるよ。どうもありがとう、ジェル。
+
+**Cimmerian:** This meeting wasn't meant to kick you in the ass and magically make you love this job again. You know the level of work you can put out. We need that back. We need more than what you're giving now.
+**シメリアン:** この面談を設けたのは君のケツを蹴って、魔法のようにこの仕事を再び好きになるよう仕向けるためじゃない。君がどれだけ仕事ができるのかなんて、君自身がよく知っているだろう。かつての働きぶりを取り戻してもらう必要がある。君が今行っている以上の成果が必要なんだ。
+
+**Lague:** Believe me, I //want// more, but I can't fucking find it. It's literally impossible. So why try?
+**ラグー:** 信じてくれ。私だってもっと成果を上げたいんだ。でも見つけられやしない。文字通り不可能だ。なのに何故足掻けと？
+
+= **<<END LOG>>**
+= **<<ログ終了>>**
+[[/div]]
+[[/div]]
+
+@@ @@
+
+[[div class="ooo"]]
+
+//Director Lague and SCP-8000 exit the gateway into the study of a vast library. The grand doors are opened, giving a view to the hundreds of thousands of books seated on dark mahogany shelves, which stretch far beyond view in the distance and towards the ceiling. The air is still, with a hint of the smell of ash and old paper. Small orbs of light dance around the shelves, illuminating the tomes and hallways.//
+//ラグー管理官とSCP-8000は異次元ゲートを出て、広大な図書館の書斎へと立入る。 開け放たれた荘重な扉からは何十万冊もの本が並べられたマホガニー材の書架が遥か彼方まで、天井へ向かって立ち並ぶ景色が窺える。静謐な空気は灰と古紙の微かな匂いを運ぶ。小さな光のオーブが書架の周りを舞い、書籍と廊下を照らしている。//
+
+**Lague:** I've been to the Wanderers' Library before.
+**ラグー:** 放浪者の図書館を訪れたことがある。
+
+**SCP-8000:** This library is mine. Those carnies got the infinite library idea from me. I borrowed it from Alexandria.
+**SCP-8000:** この図書館は僕のだよ。あの狡猾な奴らは無限の図書館のアイデアを僕から得たんだ。僕はアレクサンドリアのやつから拝借した。
+
+//The pair walk out of the study. Stone archways wrapped in ivy and vines guard the front of each of the sprawling hallways.//
+//二人は書斎を出て歩く。広々とした廊下がいくつもあり、その各々の正面には蔦と蔓を纏う石造アーチが聳え立つ。//
+
+**Lague:** I think I would have heard of a third library of this sort by now.
+**ラグー:** こんな図書館があったら、聞いたことがあるはずなんだが。
+
+**SCP-8000:** I dislike publicity, so I keep it to myself. That said, this is not //my// library //per se//. It's yours.
+**SCP-8000:** 僕は衆目が嫌いだからね、内緒にしてるんだ。とはいえ、厳密に言えばここは僕の図書館じゃない。君の図書館だ。
+
+//They approach an archway. Engraved into its keystone is "MEMORY LANE."//
+//二人はアーチ道へ接近する。要石には"追憶の小路"と銘されている。//
+
+**SCP-8000:** Care for a stroll?
+**SCP-8000:** 散歩でもするかい？
+
+//Lague and SCP-8000 proceed. They enter into a subsection of the hallway.//
+//ラグーとSCP-8000は進む。廊下の一区画へと立入る。//
+
+**SCP-8000:** This holds every experience, every moment, every bit of knowledge, and every emotion. It's a map of you, Mr. Paul.
+**SCP-8000:** ここにはあらゆる経験、あらゆる瞬間、あらゆる知識の欠片、そしてあらゆる感情が詰まっている。ポールさん、君の地図だ。
+
+**Lague:** How in-depth is this?
+**ラグー:** どのくらい詳しい？
+
+**SCP-8000:** Piano muscle memory is up there. Very dusty. Four volumes on your childhood expertise in all things shark and shark-related are up ahead. I have every moment of every elementary school class you've sat through further up this way.
+**SCP-8000:** ピアノを弾くための筋肉の記憶がそっちにある。すごく埃っぽいけど。君が少年時代に身に着けた、サメとそれに関連する専門知識を載せた四巻の大全はこの先。更に行くと、君が小学校で受けた授業の全過程がある。
+
+**Lague:** How //in-depth//?
+**ラグー:** どこまで知っているんだ？
+
+**SCP-8000:** I've read everything. //[...]// I don't judge.
+**SCP-8000:** 僕は全部読んだ。……あえて何かを言うことはしないけれどね。
+
+**Lague:** Even—
+**ラグー:** 例えば――
+
+//SCP-8000 soars above out of view, retrieving a dusty book from a shelf and dropping it to Lague. He opens it.//
+//SCP-8000は視界の外へ上昇すると書架から埃まみれの本を抜き取り、ラグーの前にそれを落とすと、ラグーはそれを開く。//
+
+[[div class="interview"]]
+
+//Lague is eight years old, swimming in a public pool.//
+//公共プールで8歳のラグーが泳いでいる。//
+
+//Grabbing the bar of a ladder in the deepest part of the pool, Lague pushes himself under and then pulls himself back up. He does this four times.//
+//プール最深部にある梯子の踏桟を掴んで水底へと潜水し、水面へと浮上する。これを四度繰り返す。//
+
+//Suddenly, Lague attempts to breach the surface but can't. The inside of his swim shorts are wrapped around the ripped stopper at the bottom of the bar.//
+//突然、ラグーは水面から顔を出す事ができなくなる。水着の内側が踏桟の底にある破れたストッパーに絡みついている。//
+
+//Panicking, Lague splashes and tries to pull himself above the water but can't. He unties his shorts and swims out of them. He is naked, but alive.//
+//パニックになったラグーはしぶきを上げて水中から体を引き上げようとするが叶わない。水着の紐を緩めて抜け出すように泳ぐ。彼は裸になったが、生きていた。//
+
+//Two girls, one Lague had romantic feelings for, observed the entire incident and stared at him.//
+//一部始終を観察していた二人の少女(一方はラグーが思いを寄せていた)が、彼を凝視していた。//
+
+[[/div]]
+
+//Lague gasps for air and touches his chest and arms.//
+//ラグーは息をのみ、胸と腕を抱く。//
+
+**SCP-8000:** Even that, yes.
+**SCP-8000:** そう、こういうのもね。
+
+**Lague:** Jesus Christ! That felt so real.
+**ラグー:** 畜生め！リアルすぎる。
+
+**SCP-8000:** It was. You were there before, and I placed you back so you may relive it.
+**SCP-8000:** だろうね。君がかつてそこにいて僕が君を過去の光景に戻したから、リアルに感じるんだろうね。
+
+**Lague:** Is this your whole gig?
+**ラグー:** これがお前の仕事か？
+
+**SCP-8000:** Making you relive embarrassing moments? No. That was a trial run. I can make you relive, but we can also watch as spectators.
+**SCP-8000:**黒歴史を思い出させることがかい？あれはただの試運転だよ。記憶を追体験させることもできるけど、一緒に観客になって見ることもできるんだ。
+
+**Lague:** Can you please — for the love of everything — tell me what we're doing here?
+**ラグー:** 頼むよ――後生だからさ――ここで何をするのか教えてくれないか？
+
+**SCP-8000:** We're here for your memories of failure. There are many. More than most people, somehow.
+**SCP-8000:** 君の失敗の記憶を探るために来たんだ。たくさんある。他の人よりも多いんだ。どういうわけか、ね。
+
+**Lague:** I'd rather you drown me again.
+**ラグー:** いっそのこともっかい沈められたほうがマシだね。
+
+[[/div]]
+
+@@ @@
+
+[[div class="testfile"]]
+[[=]]
+[[size 135%]] **RECOVERED DOCUMENTATION 8000.2** [[/size]]
+[[size 135%]] **回収された文書 8000.2** [[/size]]
+//02/14/2024//
+//2024/02/14//
+[[/=]]
+
+**Context:** Dr. Jeremiah Cimmerian gathered several of Director Lague's close colleagues, believing it would alleviate Director Lague's current disposition.
+**経緯:** ジェレミア・シメリアン博士はラグー管理官の現在の精神状態を改善できると踏み、ラグー管理官と親密な同僚を数人招致した。
+
+[[div class="interview"]]
+= **TRANSCRIPT**
+= **書き起こし**
+-----
+__Members Present__
+__参加人員__
+Dir. Daniel Asheworth
+ダニエル・アシュワース管理官
+Dr. Harold Blank
+ハロルド・ブランク博士
+Dr. Jeremiah Cimmerian
+ジェレミア・シメリアン博士
+Dr. Anthony Coix
+アンソニー・コイクス博士
+Dir. Randall House
+ランドール・ハウス管理官
+Dr. Cole Thereven
+コール・セレヴン博士
+[[[SCP-5595]]]
+-----
+= **<<BEGIN LOG>>**
+= **<<ログ開始>>**
+
+//(Guided by Cimmerian, Lague enters a Site-322 meeting space. In front of him are his colleagues, seated in a circle. An empty chair is in front of him.)//
+//(シメリアンの案内でラグーはサイト-322のミーティングスペースに入る。目の前には同僚たちが円形に座っており、空席がある。)//
+
+**Lague:** An intervention? Are you kidding me?
+**ラグー:** 仲裁行為か？からかっているのか？
+
+**Cimmerian:** It's not an intervention.
+**シメリアン:** 仲裁ではない。
+
+**SCP-5595:** {{IT'S CLEARLY AN INTERVENTION. HE'S AN IDIOT, NOT STUPID.}}
+**SCP-5595:** 明ラカニ仲裁行為デアル。らぐーハばかナ奴ダガ、愚かデハナイ。
+
+//(Lague slumps in the empty chair, grumbling to himself.)//
+//(ラグーは空席にどっかりと腰を降ろし、ぶつぶつと独り言を呟く。)//
+
+**Cimmerian:** We want to discuss your career and your emotional state. A few of us have prepared statements. Does anyone want to go first?
+**シメリアン:** 君のキャリアと精神的な容態について話し合いたい。何人かがメッセージを準備している。最初に発言したい者はいるか。
+
+//(Thereven's arm shoots up.)//
+//(セレヴンの手が上がる。)//
+
+**Cimmerian:** Cole?
+**シメリアン:** コール。
+
+//(Thereven pulls a crumpled piece of paper from under his leg and begins reading it.)//
+//(セレヴンは足元からくしゃくしゃになった一枚の紙を取り出し、読み始める。)//
+
+**Thereven:** Mr. Lague, I am very sorry for the loss you have experienced over the last few months. I can only imagine how hard it is to lose a pet. It makes me sad to think about my pet gecko, Clyde, dying like your dog did in a violent car accident. My condolences to you and all of the other dead dogs and pets out there.
+**セレヴン:** ラグーさん、この数ヶ月に経験なさった喪失感、大変お気の毒に思います。ペットを失う悲しみが如何ほどのものか、私には想像することしかできません。私もペットのヤモリ、クライドがあなたの愛犬のように惨たらしい交通事故で死んでしまうことを考えると胸が痛みます。犬とペットたちに謹んで哀悼の意を捧げます。
+
+**Cimmerian:** Cole, this is abou—
+**シメリアン:** コール、これは一体――
+
+//(Lague holds his hand up to Cimmerian.)//
+//(ラグーがシメリアンに向かって挙手をする。)//
+
+**Lague:** I appreciate it, Cole. Thank you.[[footnote]] Director Lague did not and does not own a dog.[[/footnote]]
+**ラグー:** これはこれは。どうもありがとう、コール。[[footnote]]ラグー管理官は犬を飼っておらず、過去にその経験もない。[[/footnote]]
+
+**Cimmerian:** Anthony?
+**シメリアン:** アンソニー。
+
+**Coix:** I needed some documents looked at and signed by you last week. You said you'd get to them, but when I went into your office a few hours later, I found them under a book written by a pickup artist. I had to stay overtime for five days to do the necessary edits. On top of that, I had to fill in for you at six separate meetings where you were going to no-show. I didn't get paid overtime.
+**コイクス:** 先週、あなたの閲覧と承認が必要だった書類がありました。やっておくと言いましたね。しかし、数時間後にオフィスを訪れた時、書類はナンパ師が書いた本の下敷きになっていました。必要な編集をするために私は5日間も残業しなければなりませんでした。その上あなたが欠席するはずだった6つの会議で、私があなたの穴埋めをしなければなりませんでした。残業代も貰っていません。
+
+**Lague:** What? You didn't get overtime?
+**ラグー:** なに？残業代が出ていないだと？
+
+**Coix:** You removed those privileges.
+**コイクス:** あなたがその権利を握り潰したのでしょう。
+
+**Lague:** No. No, I didn't.
+**ラグー:** いや。私はそんなことしていない。
+
+**SCP-5595:** {{OH YEAH. THAT WAS ME.}}
+**SCP-5595:** アア、ソレニツイテハ私ダ。
+
+**Lague:** The hell?
+**ラグー:** 何だと？
+
+**SCP-5595:** {{HE CALLED ME AN ASSHOLE FOR SCALPING ERAS TOUR TICKETS.}}
+**SCP-5595:** こっくすハえらす・つあー[[footnote]]**訳注:** アメリカのシンガーソングライター、テイラー・スウィフトのコンサートツアー。[[/footnote]]ノちけっとヲだふ屋ニ売ッタ私ヲくそったれ呼バワリシタノデナ。
+
+**Asheworth:** What does this gumball machine do?
+**アシュワース:** このガムボールマシンは何をするんだ？
+
+**Coix:** It's the first integrated anomaly. Lague put it in our financial department.
+**コイクス:** 統合対象となった最初のアノマリーです。ラグーが経理部門に置きました。
+
+**Asheworth:** Probably not the finest idea.
+**アシュワース:** もっといい案はなかったのか。
+
+**Lague:** Thanks, big guy. I definitely asked for your opinion there.
+**ラグー:** 親切にどうも。君の意見はしっかりと聞いた。
+
+**Asheworth:** I'm just saying. It's an anomaly controlling Foundation resources. Maybe that wasn't the best of—
+**アシュワース:** 言ってみただけだ。アノマリーは財団のリソースを左右するものだからな。恐らく、これは最善の方法ではないだろうが――
+
+**Lague:** Don't start with me, Dan. Everyone here remembers Obearwatch and thinks about it every time they see you.
+**ラグー:** もうたくさんだ、ダン。皆、君が[[span class="ruby"]]妖精[[span class="rt"]]フェイ[[/span]][[/span]]のガールフレンドをゲットしようとしたことを覚えているし、君に会う度にそのことを考えているぞ。
+
+**Asheworth:** Fuck you!
+**アシュワース:** くたばれ！
+
+//(Asheworth moves to leave.)//
+//(アシュワースは去ろうとする。)//
+
+ **Asheworth:** It was a product of its time!
+**アシュワース:** 男なら誰でもやってみる普通のことだろうが！
+
+//(Asheworth exits, slamming the door behind him.)//
+//(アシュワースはドアを乱暴に閉め、退室する。)//
+
+**House:** Every time.
+**ハウス:** 毎度のことです。
+
+**Blank:** I'll go. For the last eight years, you've been very independent — more independent than most. I'd get the rare call or email asking for a once-over on whatever report you're filing. More recently, though, you've become much less confident, needing to break down your methodology and philosophy instead of just //doing// it. You're a smart kid. Start acting like it.
+**ブランク:** 私に任せろ。この8年間、君はその他大多数と比べてとても自立していたと思う。君が提出するありとあらゆる報告書に一度目を通してほしいと電話やメールすら滅多にこなかったものだよ。しかし近頃、君は自信を失っているために、自分の方法論や哲学をただ実行するだけではなく破壊する必要が出てきた。君は賢い博士ちゃんだ。そのように行動しなさい。
+
+**Lague:** I'm not allowed to ask for advice now?
+**ラグー:** この場でアドバイスを貰うのは許されないのか？
+
+**Cimmerian:** That's not what he's saying.
+**シメリアン:** 彼が言っているのはそういうことではない。
+
+**Lague:** So what? I'm just supposed to sit here and take this?
+**ラグー:** だから何だ？私はただここに座ってコレを受け入れろと？
+
+**Cimmerian:** No one's attacking you.
+**シメリアン:** 皆、君を攻撃しているわけではない。
+
+**Blank:** Paul, you need to hear it. The fact of life is that there will be peaks and valleys. You think you reached a very, very high peak, and now you're back to a regular old valley, and you're not used to it because it's low in comparison. It's not the end of the world unless you let it be.
+**ブランク:** ポール、よく聞け。人生、山あり谷ありだ。遥かなる頂に達したと思うと、今度は変哲もない以前の谷に戻っている。君がこのことに順応していないのは、比較して低いところにいるからだ。やるべきことをやりさえすれば、深い絶望に陥ることはない。
+
+**Cimmerian:** Randall?
+**シメリアン:** ランドール。
+
+**House:** I'll keep this short. You've become a whiny bitch. You know how much bullshit I deal with on a daily basis? I work in literal //fucking// hell. I'd love the respite of researching something easy and chill every once in a while.
+**ハウス:** 手短に済ませましょう。いつまでもグチグチ言うんじゃありません。私が日々どれだけくだらないことの処理に追われていると？文字通りのクソ地獄で働いているんです。私だって時折、簡単なことを調べたり落ち着いてみたりして息抜きしたいんですよ。
+
+**SCP-5595:** {{I AGREE WITH THE DOUCHEBAG.}}
+**SCP-5595:** {{コノ気障野郎ニ同意ダナ。}}
+
+**House:** It's annoying. You're being annoying. I've seen this downward spiral happen a thousand times. Do people have their qualms? Sure. I don't give a shit about those people, because 99% of the time it's someone whining because they think they're not good enough. I'm tired of this victim mentality. Grow your self-confidence back and stop whining.
+**ハウス:** 鬱陶しいですね。正直ウザいですよ、ラグーさん。こういった負のスパイラルも千回は見てきました。皆が不満を持っている？ええ、そうでしょうね。ですが、そんな人たちのことはどうでもいいのです。なぜなら、99%の場合でそれは自分が力不足だと思って泣き言を言っている人だからです。この被害者面にはもううんざりです。自信を取り戻し、愚痴を吐くのをやめなさい。
+
+**Lague:** Ha! Pot meet kettle.
+**ラグー:** はぁ！目くそが鼻くそを笑ってら。
+
+**Cimmerian:** Guys! I said 'non-judgmental' maybe thirty times.
+**シメリアン:** みんな！「穏当に」って30回くらいは言ったぞ。
+
+**SCP-5595:** {{MAYBE YOU SHOULD HAVE SAID IT SIX HUNDRED AND FIFTY TIMES.}}
+**SCP-5595:** 650回ハ言ッテオクベキダッタカモナ。
+
+**House:** He needs to hear it.
+**ハウス:** それを聞き入れる必要があるのはラグーの方ですね。
+
+**Lague:** You want to talk about being a whiny bitch?
+**ラグー:** 君は愚痴を吐く奴について話したいのか？
+
+**House:** Watch yourself.
+**ハウス:** 言葉を慎みなさい。
+
+**Lague:** Look at the real honorable Site Director. Didn't you conscript demons to find that Gamers Against Weed guy? The one who kept drawing him as a white person, right? A whole lot of self-confidence there, Randy.
+**ラグー:** 真に名誉あるサイト管理官どのをご覧なさいよ。ゲーマーズ・アゲインスト・ウィードの奴らを探させるために例のあいつを徴用したんだろう？自分のことを白人として描かせ続けた奴だろう？自信満々だな、ランディ。
+
+**House:** Yeah, yeah, whatever you say, buddy. How about this: the second you leave this room, take your hand and grab your life back by the balls.
+**ハウス:** ああ、なんとでも言えばいい、相棒。こういうのはどうでしょう。この部屋を出た瞬間に、その手で自分の金玉を握り締めて人生を取り戻すんです！
+
+**Lague:** You know what, fuck this.
+**ラグー:** もういい。クソが。
+
+//(Lague stands up.)//
+//(ラグーは立ち上がる。)//
+
+**Lague:** Grab my life back by the balls? I'll do it all by myself.
+**ラグー:** 金玉握って人生を取り戻す？全部一人でやってやる。
+
+**House:** I'll believe it when I see it.
+**ハウス:** 見せてくれたら信じますよ。
+
+**Lague:** You watch me.
+**ラグー:** 見てろ。
+
+//(Lague exits.)//
+
+**Cimmerian:** Great work, guys. Astounding stuff. Really effective.
+**シメリアン:** 素晴らしい仕事ぶりだな、君たちは。驚きだよ。実に効果的だったよ。
+
+**SCP-5595:** {{THANK YOU.}}
+**SCP-5595:** {{コレハドウモ。}}
+
+= **<<END LOG>>**
+= **<<ログ終了>>**
+[[/div]]
+[[/div]]
+
+
+@@ @@
+
+[[div class="ooo"]]
+
+**Lague:** I saw your tail, by the way.
+**ラグー:** そういえば、尻尾を見たぞ。
+
+**SCP-8000:** No, you didn't.
+**SCP-8000:** いいや、見てないね。
+
+**Lague:** I caught it for a second when you went into the portal.
+**ラグー:** 君がポータルへ向かったとき、一瞬見えた。
+
+**SCP-8000:** That'd be impossible.
+**SCP-8000:** そうとは思えないんだけど。
+
+**Lague:** Is all of you inside of this library?
+**ラグー:** 君の体はこの図書館の中に収まり切っているのか？
+
+**SCP-8000:** Yes. Hm. I see your point. What did it look like?
+**SCP-8000:** うん。あー……そういうこと？どんな感じだった？
+
+**Lague:** Normal seal tail.
+**ラグー:** 普通のアザラシの尻尾だ。
+
+**SCP-8000:** Astounding. I'll update the documentation. Speaking of.
+**SCP-8000:** 驚いた。報告書を更新しておくよ。そういえば。
+
+//SCP-8000 flies rapidly from shelf to shelf, retrieving a myriad of books.//
+//SCP-8000は書架から書架へと素早く飛び回り、無数の本を取り出す。//
+
+**SCP-8000:** Your documentation. These tomes represent your childhood.
+**SCP-8000:** 君の資料――幼年期に纏わる本だよ。
+
+[[div class="interview"]]
+//Director Lague and SCP-8000 appear in a child's bedroom. The walls are dark blue. Multiple trophies from Little League sports victories line a bookcase opposite the bed.//
+//ラグー管理官とSCP-8000は子ども部屋に現れる。壁は紺色で、ベッドの向かいの本棚にはリトルリーグのトロフィーがいくつも並んでいる。//
+
+**Lague:** Oh, no way.
+**ラグー:** おい、まさか。
+
+//Lague strolls through, grabbing a Batman comic book off of a nightstand and flicking through the pages. He stops at the inside of the back cover.//
+//ラグーがふらふらとサイドテーブルへ向かい、バットマンのコミックを引っ掴んでページを捲る。裏表紙のカバーを捲ったところで、手を止める。//
+
+**SCP-8000:** What's that?
+**SCP-8000:** それは？
+
+**Lague:** I used to draw my own Batman comics in the back of comic books. I think I have some more over here.
+**ラグー:** 昔、コミックの裏に自分でバットマンの漫画を描いていたんだ。そっちの方にもあると思う。
+
+//Lague walks to the opposite side of the bed.//
+//ラグーがベッドの反対側へ足を向ける。//
+
+**SCP-8000:** How many did you make?
+**SCP-8000:** 何作描いたの？
+
+**Lague:** Dozens, maybe hundreds. I don't remember. I loved it, though. Before marine biologist and president, I wanted to do lineart for comics. I got a bunch of those 'How-To-Draw Comic" books. They never really helped other than giving you something to trace, but it was cool nonetheless. I just stopped one day. I don't remember why — maybe school picked up or— Oh shit!
+**ラグー:** 数十、あるいは数百か。ちゃんと覚えてないけれど、好きだったんだ。海洋生物学者や社長を目指す前は、漫画の線画原稿を描きたかったんだ。漫画のハウツー本を何冊も買った。実際にはトレース以上の役には立たなかったけど、それでもかっこよかった。ただ……ある日やめてしまったんだ。理由は覚えていない。学校が忙しくなったのか、それとも――ああ、まずい！
+
+//A child, around six or seven years old, is slumped against the bed, silently crying. Several crumpled-up drawings are strewn around him.//
+//6、7歳ほどの少年がベッドにうつ伏せになり、静かに泣いている。周囲にはくしゃくしゃになった絵がいくつも転がっている。//
+
+**SCP-8000:** Don't worry, he can't see you. That would cause a paradox.
+**SCP-8000:** 大丈夫、彼に君は見えないよ。パラドックスが起きちゃうし。
+
+**Lague:** This is so weird.
+**ラグー:** すごく奇妙な感じだ。
+
+**SCP-8000:** You mentioned you stopped.
+**SCP-8000:** 君はやめてしまったと言ったね。
+
+**Lague:** I wish I didn't. It was a pipe dream, but you know, life happens.
+**ラグー:** やめなければよかった。夢物語だったが、もしかしたら、な。
+
+//A woman barges into the room. She looks around.//
+//女性が部屋へ駆け込んできて、辺りを見回す。//
+
+**Woman:** You alright?
+**女性:** どうしたの？
+
+//She moves to find the child, sitting to meet his gaze.//
+//女性は少年を見つけると、座り込んで視線を合わせる。//
+
+**Woman:** What's wrong?
+**女性:** 大丈夫？
+
+**Child:** It's not good.
+**少年:** 大丈夫じゃない。
+
+**Woman:** Well, I think that's wrong.
+**女性:** いいえ、きっと大丈夫よ。
+
+**Child:** It's not good!
+**少年:** 大丈夫じゃないよ！
+
+//She wipes a tear from his face with her sleeve.//
+//女性は袖で少年の涙を拭う。//
+
+**Woman:**  Honey, if you work yourself up like this you'll never be happy with anything.
+**女性:** 坊や、こうやって自分を追い詰めていると、なにをやっても満足できなくなってしまうわ。
+
+**Child:** I quit! I'll just be a fish doctor and never draw again.
+**少年:** お魚のお医者さんになるからもう絵なんて描かない！
+
+**Woman:** I'll support you in whatever you decide to be. Wanna help me bread the chicken cutlets?
+**女性:** あなたが何になろうと、応援するわ。さあ、チキンカツを揚げるから、手伝ってちょうだい。
+
+**Child:** //[…]// Yeah.
+**少年:** ……うん。
+
+//The pair stand and move out of the room. The woman grasps the child's hand.//
+//女性は少年の手を握り、手を引いて部屋を後にする。//
+
+**Woman:** I don't know where I'm getting the money to pay for marine biology college, but if that's what you want to do, I support it.
+**女性:** 海洋生物学の大学のお金をどう工面すればいいかはわからないけれど……でも、それがあなたのやりたいことなら応援するわ。
+[[/div]]
+
+**Lague:** That was the day I stopped. I think. You know, now that I look again, it's not that bad for a six-year-old. I guess I was just a brat.
+**ラグー:** その日、僕はやめたんだ。確か。今にして思えば、6歳にしては悪くなかっただけのガキだったと思う。
+
+**SCP-8000:** Was?
+**SCP-8000:** 今も大差なくない？
+
+**Lague:** That's nice.
+**ラグー:** 言ってくれるな。
+
+**SCP-8000:** Why didn't you stick with it?
+**SCP-8000:** どうして諦めてしまったの？
+
+**Lague:** The odds of me doing anything that mattered in that job were slim to none. I wanted to be the next Jack Kirby or Stan Lee, but that was never going to happen. My dad worked in scouting for college football. He would always talk about these athletes he watched; they were the best in their high school of three hundred kids, but he knew the second those kids stepped onto a college field, they were in the lowest percentile of real skill. He was never, ever wrong.
+**ラグー:** その仕事で私が何か重要なことを成し遂げられる可能性は、ほとんどゼロに近かった。第二のジャック・カービーやスタン・リーになりたかったけれど、それは叶わなかっただろう。父さんは大学フットボールのスカウトをしていて、いつも自分が見てきた選手のことを話していた。彼らは300人いる高校の中では一番だったけれど、その子たちが大学のフィールドに足を踏み入れた瞬間、本当の実力は最底辺になってしまうことを彼は知っていた。父さんは決して間違っていなかった。
+
+**SCP-8000:** Do you think he's right about that? It's a bleak outlook on life to continually diminish the skills of yourself and others.
+**SCP-8000:** お父さんの言う通りだと思う？自分や他人の能力を貶め続けるなんて、人生観が暗いよね。
+
+**Lague:** He would always say this shit whenever I got some new interest. Always, always always, he'd manage to bring it up in conversation the next day.
+**ラグー:** 私が何か新しいことに興味を持つと、父さんは決まってこんなことを言うんだ。いつもだ。いっつもいっつも、翌日の会話でそれを持ち出すんだ。
+
+**SCP-8000:** So he was talking about you.
+**SCP-8000:** 君のことを言ってたんだね？
+
+**Lague:** Astute observation.
+**ラグー**: 鋭い観察眼だ。
+
+**SCP-8000:** Mr. Paul, you understand that your standards are what you make them, correct?
+**SCP-8000:** ポール、自分の基準は自分で決めるものだと理解してるよね？
+
+**Lague:** That's not true. That has never been true in the history of humankind.
+**ラグー:** それは間違っている。人類史上、そうだったことは一度もない。
+
+[[div class="interview"]]
+
+//Lague sits at a desk in a quiet, cold room. He's sixteen years old, surrounded by other teenagers at desks. The group stares at the standardized test they're taking.//
+//静かな緊張感に満ちた部屋の中、他の同級生たちと机を並べて16歳のラグーは着席している。皆が自分の受けている統一テストを見つめていた。//
+
+-----
+
+//Lague sits across from his mother. He opens a manila envelope.//
+//ラグーは母親の対面に座り、マニラ封筒を開いた。//
+
+**Lague:** 1520.
+**ラグー:** 1520点。
+
+**Woman:** Oh my god! Congratulations!
+**女性:** まあすごい！おめでとう！
+
+**Lague:** I'm trying to get into a good school, ma. 1520 doesn't cut it.
+**ラグー:** 母さん、僕はいい学校に行きたいんだよ。1520点じゃ足りない。
+
+**Woman:** What are you talking about? That's the 99th percentile.
+**女性:** 何を言ってるの？上位1％じゃない。
+
+**Lague:** Henry, Nate, //and// Isabella got above 1540s.
+**ラグー:** ヘンリーやネイト、イザベラは1540点を超えてる。
+
+**Woman:** Nate did? Did he cheat?
+**女性:** ネイトも？ズルでもしたんじゃない？
+
+**Lague:** It's not the point. 1520 doesn't fu—freaking cut it.
+**ラグー:** そんなのどうでもいいよ。1520じゃ全然鼻ク――甚だ足りないよ。
+
+**Woman:** 1520 and 1540 are both in the 99th percentile of all scores. You're being ridiculous now; stop it.
+**女性:** 1520点も1540点も上位1％には変わりないわ。ばかばかしい、やめなさい。
+
+**Lague:** It's not //good// en—
+**ラグー:** こんなんじゃ全然足りな――
+
+**Woman:** I've been dealing with this attitude for your entire life. Be happy for yourself for once. //I'm// proud of you, Paul. Doesn't that matter?
+**女性:** 私はずっとあなたのこの態度と付き合ってきたのよ。一度くらい自分のために喜びなさい。あなたは“私の”誇りよ、ポール。それ以外は大した問題じゃないわ。
+
+[[/div]]
+
+**Lague:** I was right in the end. I didn't get into the Ivies.
+**ラグー:** 結局、正しいのは私だった。アイビーリーグには行けなかった。
+
+**SCP-8000:** You switched majors in college five times, from computer engineering to graphic design to culinary arts to mechanical engineering, in a year and a half.
+**SCP-8000:** 君は大学で5回も専攻を変えたね。コンピューター・エンジニアリングやグラフィック・デザイン、調理師、機械工学へ1年半で。
+
+[[div class="interview"]]
+//Lague sits on the ground of his dorm room. A physics book is opened to a section about elasticity. He is crying.//
+//ラグーは寮の自室で地べたに座りこんでいる。物理学の本は弾性の章のページが開いている。ラグーは泣いている。//
+[[/div]]
+
+**Lague:** Fuck off with that one. I figured it out with biology in the end, //and// I graduated on time.
+**ラグー:** バカ言うな。結局生物学に落ち着いて、ストレートで卒業したよ。
+
+**SCP-8000:** Why didn't you stick with your other choices?
+**SCP-8000:** 何故他の道を諦めたの？
+
+**Lague:** Because the concepts were impossible to understand—
+**ラグー:** 概念が理解できなかったから――
+
+**SCP-8000:** That's not true. You work for the Foundation. You're smart.
+**SCP-8000:** それは違う。君は財団で働いている。君は賢い。
+
+**Lague:** Mean it?
+**ラグー:** 本心か？
+
+//[...]//
+//[...]//
+
+**Lague:** I— It wasn't groundbreaking. I was studying the work of much more successful people to graduate and become a cog in a machine based on those successful people's discoveries. No upward or downward movement, just stuck in a corporation. I couldn't do it. Maybe I self-sabotaged — I know my advisor hated me by the third switch, but I couldn't force myself into that life.
+**ラグー:** 画期的なことができなかったからだ。私より遥かに成功した先人たちの成果を学んだ結果が、卒業して彼らの発見に基づいた機械の歯車の一つとなること？上に行くことも下に行くこともなく、ただその場で回り続けるだけ？そんなのは御免だった。たぶん私の自己破滅的な行動で――指導教官には三回目の転科で嫌われたけど、無理にそんな生き方を自分に課すことはできなかった。
+
+**SCP-8000:** You wanted to leave a mark?
+**SCP-8000:** 足跡を残したかったの？
+
+**Lague:** Yeah, is that a crime?
+**ラグー:** そうだ。よくないことか？
+[[/div]]
+
+@@ @@
+
+[[div class="testfile"]]
+[[=]]
+[[size 135%]] **RECOVERED DOCUMENTATION 8000.3-4** [[/size]]
+[[size 135%]] **回収された文書 8000.3-4** [[/size]]
+//02/18/2024 - 02/19/2024//
+//2024/02/18 - 2024/02/19//
+[[/=]]
+
+**Context:** Dir. Lague authorized the following project proposal to be presented to the Overseer Council.
+**経緯:** ラグー管理官は以下のプロジェクト案を監督評議会へ提出することを承認した。
+
+[[div class="addendum"]]
+
+[[image https://scptestwiki.wdfiles.com/local--files/plaguek8/seekert.png]]
+
+[[=]]
+**PROJECT SEEKER**
+**プロジェクト・シーカー**
+//Finders keepers. Losers weepers.//
+//拾った者は得をする。落とした者は泣き寝入り。//
+[[/=]]
+
+**Project Description:** The Seeker machine is a paratechnological device. Utilizing a localized wormhole and quantum computing, Seeker's users can input specific parameters to search for undiscovered anomalies. In conjunction with its wormhole, Seeker's artificial intelligence system can predict an undiscovered anomaly's location, classification, and abilities based on the timelines and experiences of 35,000,000 parallel Earths.
+**プロジェクト概要:** シーカー・マシンはパラテクノロジー・デバイスです。局所的なワームホールと量子コンピューティングを利用し、シーカーの使用者は具体的なパラメータを入力して未発見の異常を探索することができます。ワームホールと連動することでシーカーの人工知能システムは35,000,000の平行地球のタイムラインと経験に基づいて、未発見のアノマリーの位置・分類・能力を予測することが可能です。
+
+Utilizing a GUI interface, users can input several parameters, specifying what anomalies Seeker should scan for and the number of parallel realities it should search. Seeker will return the best result, providing the factors causing the anomaly's manifestation in parallel universes and its location on Earth.
+グラフィカルユーザインターフェイス(GUI)を使用し、使用者はいくつかの設定を入力することが可能です。これにより、シーカーにどのようなアノマリーを精査させるかと幾つの並行現実を検索するかを指定することが可能です。シーカーは平行宇宙におけるアノマリーの発生要因と地球上の位置を含む最適な結果を算出します。
+
+
+
+[[/div]]
+
+**Context:** A portion of Director Lague's presentation to the Overseer Council.
+**経緯:** 監督評議会にてラグー管理官が行ったプレゼンテーションの一部。
+
+[[div class="interview"]]
+= **TRANSCRIPT**
+= **書き起こし**
+-----
+= **<<BEGIN LOG>>**
+= **<<ログ開始>>**
+
+**O5-2:** Do you see your job as one big dick-measuring contest, Director?
+**O5-2:** 管理官、あなたは自分の仕事を一つの大きな自慢大会のようにお考えなのですか？
+
+**Lague:** No ma'am.
+**ラグー:** そうではありません。
+
+**O5-2:** I'm failing to see a need to spend millions—
+**O5-2:** 私には何百万ドルもつぎ込む必要性を見出せませんが――
+
+**Lague:** The estimates I've run—
+**ラグー:** 私の見積もりでは――
+
+**O5-2:** Oh, even better. //Billions// of the Foundation's money on a theoretical tool that does something we already do. I fail to see the need for this past satiating your ego.
+**O5-2:** いや、もっと凄い。“何十億ドル”もの財団資金を、我々がもうすでにやっている事をやるだけの空想上の機械に注ぎ込むのですね。
+
+//(A photocopier sits in the seat of O5-13. It speaks.)//
+//(O5-13の席にはコピー機が置かれている。コピー機が声を上げる。)//
+
+**O5-13:** {{BIG MACHINES ARE ALL THE RAGE NOWADAYS.}}
+**O5-13:** {{近頃ハ、ビッグマシンガ大流行シテイマス。}}
+
+**O5-1:** How shocked am I that you'd be interested in this, Thirt.
+**O5-1:** 君がコレに興味を持つとは。私はどれほどショックを受けていることか、13号さん。
+
+**O5-13:** {{STOP CALLING ME THAT.}}
+**O5-13:** {{ソノ呼ビ方ハヤメテクダサイ。}}
+
+**O5-2:** Who sent out the big-machine-all-the-rage memo?
+**O5-2:** ビッグマシン大流行って知らせを引っ張り出してきたのは誰でしょうか？
+
+**O5-13:** {{SITE-17'S DEEPWELL.}}
+**O5-13:** {{サイト-17ノディープウェルデス。}}
+
+**O5-1:** Has anything positive ever come from them? They're always ruining reality or killing gods—
+**O5-1:** そいつらから何かいい案が生まれたことはあったか？いつも現実を破滅させたり、神々を殺したり――
+
+**O5-2:** Because //someone// keeps throwing money at them.
+**O5-2:** 誰かさんが奴らに金をバラ撒き続けているからでしょうね。
+
+**O5-13:** {{MAYBE I DON'T WANT TO STAY LOCKED IN A PHOTOCOPIER. HAVE YOU EVER CONSIDERED THAT?}}
+**O5-13:** {{モシカスルト、ワタシハコピー機ノ中ニ閉ジコメラレテイルノヲ嫌ガッテイルノカモシレナイト、ソウ考エタコトハアリマスカ？}}
+
+**Lague:** I did consult 17's Deepwell for this.
+**ラグー:** サイト-17のディープウェルに相談しました。
+
+//(O5-7 types on their keyboard.)//
+//(O5-7がキーボードを打つ。）//
+
+**O5-7:** stop shooting yourself in the foot.
+**O5-7:** 自分の首を絞めるのはやめろ。
+
+**O5-5:** Mr. Lague, can I first say how nice it is to see you again? Firstly, I think this is a grand idea! How did you come up with this? So cool! Okay, so I'm convinced this //could// benefit us here at the Foundation. However, I'm wondering about the intention here. I did read a report from Mr. Cimmerian over at the Ethics Committee, and he said you have a small case of the blues.
+**O5-5:** また会えて非常に嬉しいとでもいうべきかな、ミスター・ラグー？まず、これは素晴らしいアイデアだと思うよ！どうやって思いついたんだ？とてもクールだ。……さて、私はそれが財団に利益を齎すと確信している。しかし、意図が気になる。倫理委員会のシメリアンから来た報告書を読んだが、彼は君が軽い鬱状態にあると言っていた。
+
+**Lague:** Aren't those kinds of discussions supposed to be confidential?
+**ラグー:** そういった話し合いは極秘のものであるべきでは？
+
+//(O5-7 types on their keyboard.)//
+//(O5-7がキーボードを打つ。)//
+
+**O5-7:** we're not governed by the draconian rules of hipaa.
+**O5-7:** 我々はHIPAA[[footnote]]医療保険の相互運用性と説明責任に関する法律。[[/footnote]]の厳格な規律に支配されていない。
+
+**O5-13:** {{WE'RE FAR ENOUGH AWAY FROM AFRICA FOR THOSE BIG FREAKS TO BE OF NO ISSUE, SEVEN. GET ON THE SAME PAGE AS EVERYONE ELSE.}}
+**O5-13:** {{私タチハ、アフリカカラ十分ナ距離ヲトッテイマス。[[footnote]]**訳注:** HIPAAとHippo（カバ）を取り違えたための発言と思われる。[[/footnote]]アノ木偶ノ坊タチハ問題ニナリマセンヨ、セブン。本題ニ戻ッテクダサイ。}}
+
+**O5-1:** Paul, please answer Five's question.
+**O5-1:** ポール、ファイブの質問に答えてくれないか？
+
+**Lague:** Yes, I wasn't doing well, but those are for personal reasons. After evaluating myself and considering //why//, I poured myself into creating this project so that my Site and I will consistently be at the forefront of interesting, new research.
+**ラグー:** ええ、確かに私はうまくいっていませんでしたが、それは私情によるものです。自己の評価と原因の考察を済ませた後、私のサイトと私自身が、常に興味深く新しい研究の最前線にいられるよう、このプロジェクトを立ち上げることに心血を注ぎました。
+
+**O5-2:** We have anomaly detection planted on every inch of this planet. You want us to uproot that?
+**O5-2:** 我々はこの惑星の隅々にまで異常存在検出機を設置している。それを根こそぎ取っ払えと？
+
+**Lague:** No, this is a different initiative. This is for future predictions. Yes, the anomaly detection system we have is top of the line, I can't deny that or even try to make this project seem better. That is real-time; this would show us when, where, and why anomalies pop up before they even do. There's nothing like it.
+**ラグー:** いいえ、これは異なる取り組みです。これは未来予測のためのものです。そう、我々の異常存在検出システムは最高峰のものですし、そのことを否定することも、このプロジェクトの方が優れているように見せかけようとすることもできません。これはリアルタイムです。いつ、どこで、なぜ異常が発生するのかを、異常が発生する前に示してくれます。これに勝るものはありません。
+
+= **<<END LOG>>**
+= **<<ログ終了>>**
+[[/div]]
+
+**Context:** Director Lague's presentation to the Overseer Council.
+**経緯:** 監督評議会にてラグー管理官が行ったプレゼンテーションについての会話。
+
+[[div class="interview"]]
+= **TRANSCRIPT**
+= **書き起こし**
+-----
+= **<<BEGIN LOG>>**
+= **<<ログ開始>>**
+
+**Coix:** It went well?
+**コイクス:** どうでしたか？
+
+**Lague:** They bought it.
+**ラグー:** 買ってくれたよ。
+
+**Coix:** They bought the insecurity machine wholesale?
+**コイクス:** あの胡散臭い機械を卸値で買ったんですか？
+
+**Lague:** I prefer the Grab-Your-Life-Back-By-The-Balls Machine for the colloquial term. And yes, it's been approved.
+**ラグー:** 口語的に「金玉掌握マシン」とでも呼ぶ方が私は好みだな。そして答えはイエスだ、承認されたよ。
+
+**Coix:** Maybe I know you too well, but if I can see past that thin veneer, I think they could, too.
+**コイクス:** 私はあなたのことを知りすぎているのかもしれませんが、しかし、その薄いベニヤを私が見抜けるならば、彼らにも見抜けるのではないかと。
+
+**Lague:** Oh yeah. They saw through it.
+**ラグー:** そうそう。彼らは見抜いていたよ。
+
+**Coix:** //[...]// What did you do?
+**コイクス:** ……何をしたのですか？
+
+**Lague:** I didn't contact Deepwell, and I sure as shit didn't make this as an anomaly detection system.
+**ラグー:** ディープウェルとは接触していないし、異常存在検出システムとしても作ってない。
+
+//[...]//
+//[...]//
+
+**Lague:** I lied.
+**ラグー:** 嘘をついたんだ。
+
+= **<<END LOG>>**
+= **<<ログ終了>>**
+[[/div]]
+[[/div]]
+
+
+@@ @@
+
+[[div class="ooo"]]
+
+**Lague:** Would you like it if I analyzed you? I'm not some case study, you know.
+**ラグー:** 私が君を分析するのはどうだ？君について全然調べられていないんだ。
+
+**SCP-8000:** There was never a rule that you couldn't ask me questions.
+**SCP-8000:** 僕に質問できないなんて決まりはないよ。
+
+**Lague:** You got a name?
+**ラグー:** 名前はあるのか？
+
+**SCP-8000:** Hm. I don't have one. I don't remember why. It's been a while since anyone's even broached that subject.
+**SCP-8000:** うーん、ないんだよね。何でかは覚えてないけど。その話題を持ち出されたのも久しぶりだ。
+
+**Lague:** Alright. You seem like a William. Not a 'Will' William. More of a Bill.
+**ラグー:** そうか。君はウィリアムっぽいな。でも“ウィル”じゃない。どちらかというと“ビル[[footnote]]**訳注:** "Bill"。"Will"と共に"William"の一般的なニックネーム。[[/footnote]]”だ。
+
+**SCP-8000:** Why the distinction?
+**SCP-8000:** どうして区別を？
+
+**Lague:** The name Bill pops into my head when I see bald things. Not sure why.
+**ラグー:** ハゲを見るとビルという名前が頭に浮かぶんだ。何故かはよく分からないが[[footnote]]**訳注:** 恐らくはアメリカのテレビアニメ『Little Bill』を踏まえている。[[/footnote]]。
+
+**SCP-8000:** I have hair. I'm covered in hair. Your eyes work; I'm sure of that.
+**SCP-8000:** 僕には[[span class="ruby"]]体毛[[span class="rt"]]hair[[/span]][[/span]]がある。毛むくじゃらだ。それに、君の目はイかれてないと思うけど。それは確かなことだよ。
+
+**Lague:** Yeah but you //look// bald. What about Greg?
+**ラグー:** ああ、だがハゲてるように見える。グレッグはどうだ？
+
+**SCP-8000:** It feels less special without the reasoning behind a potential distinct nickname.
+**SCP-8000:** 他とは違うと感じさせるようなニックネームの理由付けがないと特別感がないや。
+
+**Lague:** Francis; Frankie for short.
+**ラグー:** フランシス、縮めてフランキー。
+
+**SCP-8000:** I remember why I never picked one now. I wouldn't have been taken seriously if I had shown up and said, "Hello, Mr. Paul. I am Frankie."
+**SCP-8000:** どうして名前を決めてなかったのかを今思い出したよ。「こんにちは、ポールさん。私はフランキーです。」とか言って出て行ったとして、君は真面目に取り合ってくれなかったでしょ。
+
+**Lague:** You're an incredibly long seal. Play into the ridiculousness of that scenario.
+**ラグー:** 君は信じられんほど長いアザラシなんだぞ。台本じゃ道化役に決まってる。
+
+**SCP-8000:** I think the tonal disparity between what I do and my //coincidental// resemblance to a rather dopey mammal is enough unrequited cosmic humor.
+**SCP-8000:** 僕は至って真面目にやっているけれど、見てくれはどうにも間抜けな哺乳類と“偶然”よく似ているらしい。その間にある奇妙なズレというのは、まず持って宇宙のユーモアだろうが、実に救われないね。
+
+**Lague:** I'm the expert on these things here. You have to pick //something.// A few years back, I dealt with—
+**ラグー:** 私はこの手のエキスパートでな。さっきの中からどれかは選んでくれよ。数年前、私が扱ったのは――
+
+**SCP-8000:** Yes, the God of Scrimshaw and Whalebone Carvings. Scordoh plays into his assignment very well. I take a different approach.
+**SCP-8000:** そう、スクリムショウ[[footnote]]**訳注:** マンモスやクジラの牙に紋様を彫刻した工芸品。[[/footnote]]と鯨骨彫刻の神だ。[[span class="ruby"]]スコルドー[[span class="rt"]]Scordoh[[/span]][[/span]][[footnote]]**訳注:** SCP-6597-1。クジラの骨と鋼から成ると推察される鎧を着用し、スクリムショウの守護神と「スコルドー」の名を自称する半有体人型実体。[[/footnote]]は本当によくやってるね。僕なら違うアプローチを取るけどね。
+
+**Lague:** Please pick a name.
+**ラグー:** 名前を決めてくれ。
+
+**SCP-8000:** This is interesting.
+**SCP-8000:** これは興味深い。
+
+**Lague:** Here we fucking go again.
+**ラグー:** ああクソ、またか。
+
+**SCP-8000:** Looking into you, I've found you have a rather obsessive personality that never seems to be sufficed. Your art skill for an adolescent wasn't bad; some would even consider it pretty good. It wasn't good enough. That obsession for perfection led you to quit.
+**SCP-8000:** 君について調査したところ、強い強迫観念に囚われていて、決して満足することがなさそうだということが判ったよ。思春期の少年にしては画力は悪くなかったし、とても良いと見なす人もいるだろう。それでも満足しなかった。その完璧さへの執着こそが君が漫画をやめた原因だ。
+
+**Lague:** I don't think it's such a bad thing to stop yourself if you have no future in it.
+**ラグー:** 将来性がないなら自分からやめても別にいいじゃないか。
+
+**SCP-8000:** You do this for most activities, academic, recreational, or otherwise, if you even sniff a hint of potential adversity within your rise.
+**SCP-8000:** 出世というものの中に潜在的な艱難の微香を嗅ぎ取ってしまった結果、学業や趣味、その他を問わず、殆どの活動を道半ばで放り出している。
+
+//SCP-8000 retrieves a nearby black paperback book.//
+//SCP-8000は近くにあった黒い文庫本を手に取る。//
+
+[[div class="interview"]]
+
+//Lague is playing for his university's intramural basketball league.//
+//ラグーは大学の学内バスケットボールリーグでプレーしている。//
+
+//The game is tied in the fourth quarter. Lague's team has the ball with fifteen seconds remaining. Neither team has any timeouts.//
+//試合は第4クォーターで同点。ラグーのチームは残り15秒時点でボールを持っている。どちらのチームにもタイムアウトはない。//
+
+//The ball is passed to a teammate, who is quickly placed under pressure from two defenders. He makes a quick pass to the opposite corner to another teammate. Seven seconds remain.//
+//ボールがチームメイトに渡ると、二人のディフェンダーが即座にプレッシャーをかける。彼は反対側コーナーにいる別のチームメイトに素早くパスを出す。残り7秒。//
+
+//The teammate fakes a shot, then dribbles into the paint, faking a layup and throwing the ball to Lague. Three seconds remain.//
+//そのチームメイトはシュートをすると見せかけてドリブルでペイントエリアに入り、レイアップすると見せかけてラグーにボールを渡す。残り3秒。//
+
+//Lague misses the pass. The ball bounces into a defender's hands, who makes a fast break for the opposing basket. 1 second remains.//
+//ラグーがパスミス。ボールが相手ディフェンダーの下へ転がると、ディフェンダーが速攻を仕掛ける。残り1秒。//
+
+//The player shoots the ball from behind the three-point line, sinking the basket and winning.//
+//その選手がスリーポイントラインの外からシュート、ゴールを決めて勝利。//
+
+//Lague leaves, missing the post-game meeting. He did not show up for the next practice.//
+//ラグーは試合後のミーティングを欠席して退場。次の練習にも姿を見せなかった。//
+[[/div]]
+
+**Lague:** Oh, come on! I think that's fair. Yeah, I was a baby about my art, and I was mad that I didn't get into the college I wanted to. This is just embarrassing.
+**ラグー:** おいおい！それは確かに正論だな。なあ、私は絵についてもド素人だったし、それに志望大学にも行けなくて腹を立てた。そんなの恥ずかしいだけだ。
+
+**SCP-8000:** You can downplay those events as much as you please, but they were very influential in regard to who you are now.
+**SCP-8000:** そういう出来事は好きなだけ軽視すればいいけれど、現在の君の実存にもとても大きな影響を及ぼしているんだ。
+
+**Lague:** You can say that about anything. That's how socialization works.
+**ラグー:** そんなのは何にでも言える。それが社会化というものだ。
+
+**SCP-8000:** You lost a single game and quit. Was the embarrassment that bad?
+**SCP-8000:** 君はたった一度だけ試合に負けて、それでバスケをやめてしまった。恥ずかしいのがそんなに嫌だったの？
+
+**Lague:** To have to look in the face of my teammates after I went butterfingers on an easy game-winner? Yeah. That's fucking embarrassing.
+**ラグー:** 楽に勝てる試合でパスを受け損なったのに、チームメイトと顔を合わせなければいけないことがか？ああ、クソ恥ずかしいよ。
+
+**SCP-8000:** Why are you so averse to that? Embarrassment is a normal part of life.
+**SCP-8000:** どうしてそんなに嫌なのさ。恥ずかしいのは人生において普通のことだよ。
+
+**Lague:** You know what, you're a hypocrite. You won't let yourself even consider having a name because you're afraid of what people think about you once they hear it. The loss was on me, no one else but me. I couldn't put that art into the world because it wasn't good enough for anyone else to look at. I was pissed I didn't get into an Ivy because how is anyone else supposed to know that I'm smart enough to be there. You're the same as me, and I'm not going to let these assholes think they're better than me as long as I can do something about it.
+**ラグー:** 要するにさ、君は偽善者だ。みんなが君の名前を聞いてどう思われるかを恐れて、名前を持とうとすることすら思わない偽善者なんだよ。バスケに負けたのは私のせいだ。他の誰でもない。他人に見てもらえるような出来ではなかったから、私は世に絵を出さなかった。アイビーリーグのどこにも入れなかったことに腹を立てたのは、私はそこに行けるほど賢いのだと周りに示すのに失敗したからだ。君も私と同じだ。私が何かしら行動できる限り、このバカどもに私より優秀だと慢心させてやるつもりはない。
+
+**SCP-8000:** There it is.
+**SCP-8000:** そういうことね。
+
+**Lague:** Ooooh. Ooooh. You got me. Good fucking job. You're still a hypocrite.
+**ラグー:** おー。おー。理解したか。よくやった。相変わらず偽善者だが。
+
+**SCP-8000:** My name is Wallace, Mr. Paul. Wally, for short. I'm Wallace, and I always have been, but you're still stuck in the position you've trapped yourself in. I hope you'll see that I'm trying to help you.
+**SCP-8000:** 僕の名前はウォレスだよ、ポールさん。略してウォーリー。僕はウォレスだ。ずっとそうだった。だけど君はまだ自分を追い詰めたままだ。僕は君を助けようとしている、そのことをわかってほしい。
+
+[[/div]]
+
+@@ @@
+
+[[div class="testfile"]]
+[[=]]
+[[size 135%]] **RECOVERED DOCUMENTATION 8000.5-8** [[/size]]
+[[size 135%]] **回収された文書 8000.5-8** [[/size]]
+//03/13/2024 - 03/20/2024//
+//2024/03/13 - 2024/03/20//
+[[/=]]
+
+**Context:** An abridged catalog of the anomalies discovered by Seeker.
+**経緯:** シーカーにより発見されたアノマリーの略述総覧。
+
+[[div class="addendum"]]
+= **__SEEKER.01__**
+= **__SEEKER.01__**
+
+
+**Input Universes:** 104,257
+**入力宇宙数:** 104,257
+**Parameters:** 'CLOSE' 'ALIVE' 'BIG' 'DANGEROUS' 'IN-PHILADELPHIA'
+**設定:** '近距離' '生命' '大きい' '危険' 'フィラデルフィア内'
+----
+**Seeker Discovery:** Anomaly is triangulated to Citizen's Bank Park, the home field for the Philadelphia Phillies baseball team.
+**発見:** フィラデルフィア・フィリーズ内本拠地、シチズンズ・バンク・パークにてアノマリーが特定された。
+----
+
+[[div class="scp-image-block block-center" style="width:100%;"]]
+[[image https://scptestwiki.wdfiles.com/local--files/plaguek8/ppheader.png style="width:100%;" link=#]]
+[[div class="scp-image-caption" style="width:100%;"]]
+SCP-01-SEEK.
+SCP-01-SEEK。
+[[/div]]
+[[/div]]
+
+**Truncated Description:** SCP-01-SEEK is a chimerical-humanoid anomaly resembling a green, rotund, avain wearing a Philadelphia Phillies uniform. SCP-01-SEEK is sentient, sapient, and capable of speech.
+**概略:** SCP-01-SEEKはフィラデルフィア・フィリーズのユニフォームを着用している、緑色で丸々とした鳥類に類似するキメラヒューマノイドである。SCP-01-SEEKは知性と感覚を有し、会話が可能。
+
+[[div class="interview"]]
+= **TRANSCRIPT**
+-----
+**Lague:** That's not a costume?
+**ラグー:** コスプレか？
+
+**SCP-01-SEEK:** No.
+**SCP-01-SEEK:** じゃないよ。
+
+**Lague:** You've been a living thing this whole time.
+**ラグー:** 今まで生きてきたということか。
+
+**SCP-01-SEEK:** Yes. Have you read my book? Everything's explained.
+**SCP-01-SEEK:** うん。僕の本読んだ？全部書いてるよ。
+
+**Lague:** Yeah, I know it says you're from the Galapagos islands, but there's historical documentation of the Henson monster shop making the Phanatic.
+**ラグー:** ああ、君がガラパゴス諸島出身だと書いてあるのは知っているが、ヘンソンのモンスター屋がファナティック[[footnote]]フィラデルフィア・フィリーズの球団マスコット。[[/footnote]]を作ったとする歴史的資料があるんだ。
+
+**SCP-01-SEEK:** I've met Charles Darwin.
+**SCP-01-SEEK:** チャールズ・ダーウィンに会ったこともあるよ。
+
+**Lague:** Have you, now?
+**ラグー:** そうなのか？
+
+**SCP-01-SEEK:** I've been spreading anti-evolution rhetoric for seventy years. I'm the guy who came up with school choice.
+**SCP-01-SEEK:** 僕は70年間、反進化論を広めてきた。僕が学校選択制を考案したんだよ。
+
+**Lague:** Why didn't he write about you?
+**ラグー:** 何故ダーウィンは君のことを記さなかったんだろうな。
+
+**SCP-01-SEEK:** I forced him not to.
+**SCP-01-SEEK:** 書かせないようにしたんだ。
+
+**Lague:** How?
+**ラグー:** どうやって？
+
+**SCP-01-SEEK:** I said I'd eat him.
+**SCP-01-SEEK:** 「食べちゃうぞ」って言ってね。
+
+**Lague:** Why would he believe you?
+**ラグー:** どうやって信じさせたんだ？
+
+**SCP-01-SEEK:** I ate his assistant.
+**SCP-01-SEEK:** 助手を食べちゃったからね。
+
+**Lague:** Did you?
+**ラグー:** 食べた？
+
+**SCP-01-SEEK:** Swallowed him whole.
+**SCP-01-SEEK:** 丸呑みだよ。
+
+**Lague:** Delightful.
+**ラグー:** 面白い。
+
+**SCP-01-SEEK:** My nose hole unhinges like a snake.
+**SCP-01-SEEK:** 僕の鼻の穴はね、蛇の口みたいにかっぴらくのさ。
+
+**Lague:** You like eating people?
+**ラグー:** 人間を食べるのか？
+
+**SCP-01-SEEK:** Probably my favorite thing to do.
+**SCP-01-SEEK:** 大好きかな。
+
+**Lague:** You're okay with that?
+**ラグー:** それでいいのか？
+
+**SCP-01-SEEK:** Do you get mad at sharks for doing the same thing?
+**SCP-01-SEEK:** サメが同じことをしたら怒る？
+
+**Lague:** Sharks don't actively hunt people.
+**ラグー:** サメは積極的に人間を襲わない。
+
+**SCP-01-SEEK:** I never said I hunt people.
+**SCP-01-SEEK:** 僕が人間を襲うだなんて、一言も言ってないよ。
+
+**Lague:** Do you hunt people?
+**ラグー:** 実際どうなんだ？
+
+**SCP-01-SEEK:** Yeah, mostly kids. I like standing in their doorways until they notice I'm there.
+**SCP-01-SEEK:** 襲うよ、大体は子どもかな。僕の存在に気付くまで戸口に立っているのが好き。
+
+**Lague:** Are you trying to get a reaction out of me?
+**ラグー:** 私のリアクションを窺っているのか？
+
+**SCP-01-SEEK:** You know my hotdog gun? The dogs I put in there are made of people meat. From the people I hunt.
+**SCP-01-SEEK:** 僕のホットドッグキャノンを知ってる？そのホットドッグは人肉でできてるんだ。僕が襲った人間のね。
+
+**Lague:** Enchanting.
+**ラグー:** 心惹かれるね。
+
+**SCP-01-SEEK:** You ever got one of my hotdogs slung at you?
+**SCP-01-SEEK:** 発射したホットドッグが君に直撃したことは？
+
+**Lague:** Nope.
+**ラグー:** ないね。
+
+**SCP-01-SEEK:** They're made of people meat.
+**SCP-01-SEEK:** それも人肉製さ。
+
+**Lague:** I'm finding it farfetched that you are a living creature that looks like //that//, you're almost 200 years old, and you eat people.
+**ラグー:** そんな姿をしておいて、200歳近くも生きていて、しかも人間を食べるとは信じられないな。
+
+**SCP-01-SEEK:** I'm finding it farfetched that you don't think I'll eat you.
+**SCP-01-SEEK:** 君が僕に食べられることはないと思い込んでいるのが、むしろ信じられないね。
+[[/div]]
+[[/div]]
+
+[[div class="addendum"]]
+= **__SEEKER.04__**
+= **__SEEKER.04__**
+
+**Input Universes:** 30,124,610
+**入力宇宙数:** 30,124,610
+**Parameters:** 'BIG' 'SCARY' 'DANGEROUS' 'MONSTER'
+**設定:** '大きい' '恐ろしい' '危険' 'モンスター'
+----
+**Seeker Discovery:** Anomaly is triangulated to the Everglades in Florida, USA.
+**発見:** アメリカのフロリダ、エバーグレーズにてアノマリーが特定された。
+----
+
+[[div class="scp-image-block block-center" style="width:100%;"]]
+[[image https://scptestwiki.wdfiles.com/local--files/plaguek8/guy.png style="width:100%;" link=#]]
+[[div class="scp-image-caption" style="width:100%;"]]
+SCP-04-SEEK upon discovery.
+発見時のSCP-04-SEEK。
+[[/div]]
+[[/div]]
+
+**Truncated Description:** SCP-04-SEEK is a humanoid anomaly capable of translocation through the space-time continuum.
+**概略:** SCP-04-SEEKは時空連続体内を移動可能な人型実体である。
+
+[[div class="interview"]]
+= **TRANSCRIPT**
+= **書き起こし**
+-----
+**Lague:** Hello?
+**ラグー:** もし？
+
+**SCP-04-SEEK:** Hey, what's up, man?
+**SCP-04-SEEK:** よお、何か用か？
+
+**Lague:** Do you live here?
+**ラグー:** ここに住んでるのか？
+
+**SCP-04-SEEK:** Nah. I'm just chilling.
+**SCP-04-SEEK:** いいや。ただぶらついているだけだよ。
+
+**Lague:** How'd you get here?
+**ラグー:** どうやってここに？
+
+**SCP-04-SEEK:** I like to teleport.
+**SCP-04-SEEK:** テレポートするのが好きでな。
+
+**Lague:** Is that all?
+**ラグー:** それだけ？
+
+**SCP-04-SEEK:** I can time travel.
+**SCP-04-SEEK:** タイムトラベルもできるぞ。
+
+**Lague:** Have you done anything of note with that?
+**ラグー:** それで何かしたのか？
+
+**SCP-04-SEEK:** You ever wonder why child mortality was so bad when there were knights and kings and shit?
+**SCP-04-SEEK:** 騎士や王様やウンコ野郎がいた時代、ガキの死亡率が何でそんなに高かったのかを不思議に思ったことはないか？
+
+**Lague:** Not particularly.
+**ラグー:** 特には。
+
+**SCP-04-SEEK:** I travel back in time to eat kids.
+**SCP-04-SEEK:** 俺が過去に戻ってガキどもを食ってるんだ。
+
+[[/div]]
+[[/div]]
+
+**Context:** Director Lague holds a meeting with those attending the first Seeker tests.
+**経緯:** ラグー管理官は最初のシーカー試験参加者との会議を開催した。
+
+[[div class="interview"]]
+= **TRANSCRIPT**
+= **書き起こし**
+-----
+= **<<BEGIN LOG>>**
+= **<<ログ開始>>**
+
+**Lague:** What the fuck did you guys do?
+**ラグー:** お前たちは何をしやがったんだ？
+
+**Chief Engr Hartwell:** //[...]// Made the machine you wanted?
+**ハートウェル主任技術官:** ……お望みのマシンを作った？
+
+**Lague:** Why the fuck is it pumping out cannibals?
+**ラグー:** 何故食人鬼どもを送り出しやがる。
+
+**Engr Wackerman:** Maybe the AI heavily associates cannibals with the dangerous parameter.
+**ワッカーマン技術官:** 恐らくAIが食人鬼を危険な入力値に結びつけているのでしょう。
+
+**Chief Engr Hartwell:** Maybe you need to be more specific.
+**ハートウェル主任技術官:** もっと具体的に説明してくれ。
+
+**Lague:** Maybe I should have been more fucking specific to //you//. This machine isn't meant to find some //thing// you can just shove in a locker and call it a day.
+**ラグー:** 君にはもっと具体的に言ってやるべきだったかな。この機械はな、ロッカーに押し込んでその日の業務を終わるような物を見つけるためのものじゃないんだよ。
+
+**Chief Engr Hartwell:** That wasn't in the specifications.
+**ハートウェル主任技術官:** 発注書にはなかった。
+
+**Lague:** Read between the fucking lines!
+**ラグー:** 行間を読め！
+
+**Coix:** Paul, you're being ridiculous.
+**コイクス:** ポール、馬鹿げてます。
+
+**Lague:** No, no, I'm not. This project represents billions of dollars. This project represents //me//. I need to show that this can find a world-ending threat before it causes any damage.
+**ラグー:** いや、いいや、そんなことはない。このプロジェクトには何十億ドルもかけている。このプロジェクトは私を象徴している。損害が発生するよりも先に、これが世界を終わらせるような脅威が発見できるということを示す必要がある。
+
+**Coix:** Who said that?
+**コイクス:** 誰がそんなことを言ったんですか？
+
+**Lague:** Who said what?
+**ラグー:** 誰が何を言ったって？
+
+**Coix:** That you needed to find a world-ending threat. The Overseers?
+**コイクス:** 世界を終わらせるような脅威を見つける必要がある、と。監督者たちですか？
+
+**Lague:** //I// need to find it. Me! I won't sit here with a billion-dollar piece of paratech that will just spit out the baby-eating Tickle-Me-Elmo. Do you understand how stupid I'd look?
+**ラグー:** 私だよ！“私”が見つける必要があると言ってるんだ。赤子を食べるくすぐりエルモを吐き出すだけで10億ドルもするようなパラテックにあぐらを掻くつもりはない。私がどれだけバカに見えるかわかるか？
+
+**Coix:** You need to calm down.
+**コイクス:** 落ち着いてください。
+
+**Lague:** Ant, I'm one fucking second away from sending you to 120. Jim, what's the ceiling on the amount of universes this thing can scan?
+**ラグー:** アント、お前をサイト-120に送るまであと1秒だ。ジム、スキャンできる宇宙の上限数は？
+
+**Chief Engr Hartwell:** You're just about there at thirty-five million.
+**ハートウェル主任技術官:** 3,500万かそこらだ。
+
+**Lague:** I need that number bumped up.
+**ラグー:** もっと増やしてくれ。
+
+**Chief Engr Hartwell:** Are you crazy? I can't just //do// that. The entire thing will need to be reassembled.
+**ハートウェル主任技術官:** 正気か？それは無理だよ。全体を組み立て直さなければならなくなる。
+
+**Lague:** Why?
+**ラグー:** 何故？
+
+**Chief Engr Hartwell:** Technically, and //maybe//, I can move that number up to forty. But at that—
+**ハートウェル主任技術官:** 技術的に――恐らくだが――この数字を4,000万まで上げることはできる。だが、そうなると――
+
+**Lague:** So you can change the numbers.
+**ラグー:** 増やせるんだな？
+
+**Chief Engr Hartwell:** Yes.
+**ハートウェル主任技術官:** ああ。
+
+**Lague:** What's the limit?
+**ラグー:** 上限は？
+
+**Chief Engr Hartwell:** There isn't one. Listen, the stabilization on that machine—
+**ハートウェル主任技術官:** ない。いいか、あのマシンの安定化には――
+
+**Lague:** You fucking built it, Jim. You'll fix it if it breaks. Jesus Christ!
+**ラグー:** お前が作ったんだ、ジム。壊れたら直せ。わかったか！
+
+**Chief Engr Hartwell:** I'm not changing the universal limit.
+**ハートウェル主任技術官:** 宇宙の上限は弄らない。
+
+**Lague:** Suit yourself. I have no problem with that.
+**ラグー:** 好きにしろ。私には何の問題もない。
+
+**Coix:** Wait a second before you do something stupid. Didn't you fail out of engineering?
+**コイクス:** バカなことをする前にちょっと待ってください。あなたは工学部で落第したんですよね。
+
+**Lague:** Start learning Polish.
+**ラグー:** 訳のわからないことを言うな。
+
+= **<<END LOG>>**
+= **<<ログ終了>>**
+[[/div]]
+
+[[/div]]
+
+@@ @@
+
+[[div class="ooo"]]
+
+//SCP-8000 soars away, retrieving 18 leather-bound books. All are emblazoned with the SCP Foundation's logo.//
+//SCP-8000は18冊の革装本を回収しながら舞い上がる。全てにSCP財団のロゴが描かれている。//
+
+**SCP-8000:** You're a Site Director; eight years running right now. On top of that, you're reasonably young for one, yes? Despite your appearance.
+**SCP-8000:** 君は勤続8年目のサイト管理官だ。そのうえとても若いだろ？見た目とは裏腹に。
+
+**Lague:** Yeah. Thanks.
+**ラグー:** ああ、そりゃどうも。
+
+//SCP-8000 picks up a book and flips through its pages.//
+//SCP-8000は一冊の本を手に取るとページをパラパラめくる。//
+
+**SCP-8000:** You climbed the ranks fairly quickly, mostly due to your friendships with people that mattered.
+**SCP-8000:** 君は結構早くに出世したけれど、大部分は君の大切な人たちとの友情のお陰だよ。
+
+**Lague:** Real confidence booster there.
+**ラグー:** お褒めに預かり光栄だね。
+
+**SCP-8000:** That's not criticism, Mr. Paul. These are facts. You weren't unqualified, but you only got those qualifications due to the opportunities people like Ms. Moose or Mr. McInnis provided.
+**SCP-8000:** 批判してる訳じゃないんだよ、ポールさん。単なる事実。君に資格がなかったんじゃないけど、ムースさんやマッキンスさんといった人たちが与えてくれた機会のおかげで資格を得たに過ぎないんだ。
+
+**Lague:** Anyone could have been in my same spot. No one forced me to do the work I needed to do, and no one else was in a position to be Director when I was picked.
+**ラグー:** 誰でも私と同じ地位になれただろうさ。私が管理官に抜擢された時、私がしなきゃいけない仕事を振ってくる人間は一人もいなかったし、管理官になれる地位の人間は他にいなかった。
+
+**SCP-8000:** Why are you a Site Director?
+**SCP-8000:** どうして君はサイト管理官なんだろうね？
+
+**Lague:** What do you want me to do? Brag? I was the most qualified man for the job. I don't know. I was in the right place at the right time.
+**ラグー:** 私にどうしてほしいんだ？自慢か？私が適任だったからだ。わからない。私がその時正しい場所にいたからだ。
+
+**SCP-8000:** Remember our honesty pact, Mr. Paul. Here's a conversation between you and Mr. Anthony in 1993.
+**SCP-8000:** 正直に話すって約束は覚えてる？ポールさん。ここに1993年の君とアンソニーさんの会話がある。
+
+[[div class="interview"]]
+**Lague:** They gave that slimy fuck his own Site.
+**ラグー:** あのヌルヌルクソ野郎がついにサイト管理官になりやがった。
+
+**Coix:** The Houses have dealt with the Tartareans since the 40s. It was bound to happen.
+**コイクス:** ハウス一族は40年代から妖魔界実体どもの対処をしてきました。当然の成り行きでした。
+
+**Lague:** No, that's bullshit, Ant. How is that fair?
+**ラグー:** いや、そんなのはデタラメだ、アント。それのどこが公平なんだ。
+
+**Coix:** I never said it was.
+**コイクス:** 公平とは言っていません。
+
+**Lague:** He's two goddamn years younger than me! What the fuck!
+**ラグー:** 私より2つも下だぞ！畜生！
+
+**Coix:** I don't know why you're so upset. You're a senior researcher at 25. It took me until I was 34 to even sniff a project I could call my own, let alone a senior title.
+**コイクス:** 何をそんなに錯乱しているのですか？あなたは25歳で上級研究員です。私は34歳まで上級の肩書きはおろか、自分のプロジェクトと呼べるものに嗅ぎつけることさえありませんでした。
+
+**Lague:** I've been in a one-sided war with Randall since I joined this organization. He has the biggest leg up on me now.
+**ラグー:** 私はこの組織に入って以来、一方的な防戦をランドールと続けてきた。 彼は今、私よりも上、最も優位なところに立っている。
+
+**Coix:** Jesus Christ. You're impossible sometimes. Get it together and do the mountain of paperwork in your office. Sitting here and complaining to me won't make you an Overseer.
+**コイクス:** ああもう。あなたは時々手がつけられなくなりますね。気を確かに持って、オフィスに戻って事務仕事の山をやってください。ここに座って私に文句を言っていても監督官にはなれません。
+[[/div]]
+
+**Lague:** I was a kid, and I was jealous.
+**ラグー:** ガキだったし、嫉妬もしてた。
+
+**SCP-8000:** Why were you jealous? Wasn't Mr. Randall a friend of yours?
+**SCP-8000:** どうして嫉妬したの？ランドールさんは君の友人だったんでしょ？
+
+**Lague:** Yeah.
+**ラグー:** ああ。
+
+**SCP-8000:** Do you hate Mr. Randall?
+**SCP-8000:** ランドールさんのことが憎い？
+
+**Lague:** I don't hate him. I never hated him. He's been a mentor to me since I started.
+**ラグー:** 嫌いじゃない。憎むわけもない。ランドールは入職当時からの良き指導者だ。
+
+**SCP-8000:** But you were so hateful during that moment.
+**SCP-8000:** でも、あの時の君は憎悪に満ちていた。
+
+**Lague:** My god, what's wrong with me?
+**ラグー:** なあ、私はどうしてしまったんだ？
+
+//(SCP-8000 stares at Lague intently.)//
+//(SCP-8000がじっとラグーを見つめる。)//
+
+**Lague:** I thought I should have been made a Director first.
+**ラグー:** 私が最初に管理者となるべきだったと思ったんだ。
+
+**SCP-8000:** Why?
+**SCP-8000:** それはまたどうして？
+
+**Lague:** Because I thought it would erase every single fucking insecurity I have. If I beat him to the punch, no one would be able to look at me like I wasn't meant to be here.
+**ラグー:** そうすれば私の不安は一つ残らず払えると思った。もし私がランドールに勝っていたら、私は管理官に相応しくないという視線を向けられる奴はいなかっただろう。
+
+**SCP-8000:** You eventually got a Site of your own, regardless.
+**SCP-8000:** なんであれ、君は最終的に自分のサイトを手に入れたじゃないか。
+
+**Lague:** I did, but by then it felt like a consolation prize. Fuck, man. What am I doing to myself?
+**ラグー:** 手に入れたところで、そんなのは残念賞みたいなものだった。クソっ。私は自分に何をしてるんだ？
+
+**SCP-8000:** It wasn't good enough?
+**SCP-8000:** 満足できなかった？
+
+**Lague:** It was— It should have been. I— I wanted to do something important — //make// something that I could put my name at the top of. My entire life, I've been just one single fucking step behind. All I ever, ever wanted was to get even the smallest bit of recognition. You've seen it!
+**ラグー:** それは……そうしておくべきだった。私――私は何か重要なことをしたかった……自分の名前がクレジットの先頭に出てくるような何かを創造したかったんだ。私の人生はずっと、たった一歩だけ遅れている。わかってるだろ、ほんの少しさえ認めてもらえるだけでよかったんだ。
+
+**SCP-8000:** Don't you think it's a bit ridiculous to believe an organization in charge of the utmost security and safety of the universe would give someone a Site as a "consolation prize?"
+**SCP-8000:** 宇宙安全保障の最大責任者たる財団が、「残念賞」としてサイトを贈るなんて思い込み、ちょっとバカげてると思わない？
+
+//SCP-8000 flips to another page.//
+//SCP-8000は別のページをめくる。//
+
+[[div class="interview"]]
+**Lague:** I need your opinion on this, considering you're an anomaly. Containment stuff.
+**ラグー:** 収容に関して、異常存在である君の意見が必要だ。
+
+**SCP-5595:** {{THE WAY YOU SAY THAT WORD MAKES IT FEEL LIKE A SLUR.}}
+**SCP-5595:** {{中傷スルカノヨウナ言イ草ダナ。}}
+
+**Lague:** I'm losing my shit over here. Give me a break. Look, one of the junior researchers decided to get the flu today, and no one else can fill in on this boring project.
+**ラグー:** こっちは気が狂いそうなんだ、勘弁してくれ。見ろ、ある若手研究員は今日、インフルエンザにかかったことにしたらしい。そんでもって誰もこの退屈なプロジェクトに携わろうとしない。
+
+**SCP-5595:** {{WHAT IS IT?}}
+**SCP-5595:** {{ソレハナンダ。}}
+
+**Lague:** A toaster that replaces the bread you put in with different types of bread. Anomalous item log entry.
+**ラグー:** 入れたパンを別の種類に置き換えるトースター。Anomalousアイテム候補だ。
+
+**SCP-5595:** {{I HOPE YOU VIEW THAT THING AS INFERIOR TO ME.}}
+**SCP-5595:** {{ソレガ私ヨリ優レタ存在ダト思ッテハイマイナ。}}
+
+**Lague:** When did you get so insecure?
+**ラグー:** いつからそんな心配性になったんだ？
+
+ **SCP-5595:** {{I EMULATE YOU.}}
+**SCP-5595:** {{君ヲ参考ニシタ。}}
+
+**Lague:** I can't believe I'm fucking sitting here typing this bullshit up. I'm a Director. This should not be my work for the day.
+**ラグー:** こんなところに座ってデタラメ書かされているなど信じられん。私は管理官だぞ。これは私の仕事ではないはずだ。
+
+ **SCP-5595:** {{HAVE YOU EVER LED ANYONE IN YOUR LIFE? YOUR JOB IS TO PICK UP THE SCRAPS WHEN THE REST OF THE MICE CAN'T EAT THEM ALL. THEY — //I// — DON'T PAY YOU TO SIT AROUND AND ONLY DO WORK WHEN THE WORLD IS ABOUT TO EXPLODE. I WAS BETTER AT THIS JOB THAN YOU WERE, AND I WAS USURPED AFTER A MERE DAY.}}
+**SCP-5595:** {{今マデニ誰カヲ率イタ経験ガアッタカ？君ノ仕事ハ他ノねずみドモガ食ベキレナカッタ時ニ残飯ヲ拾ウコトダ。奴ラハ――私モダガ――君ノヨウナ、だらだら座ッテイルくせニ世界ガ爆発シソウナ時ダケ働ク奴ニ給料ヲ出サナイ。私ハ君ヨリモ有能デアルノニ、タッタ1日デ降ロサレタ。}}
+
+[[/div]]
+
+**SCP-8000:** You got what you were hunting for, and it's still not good enough.
+**SCP-8000:** 君が探していたものは見つかったけど、まだ足りないよね。
+
+**Lague:** I can't do this anymore. Can we stop, please? I get it. I get what you're trying to tell me. I swear.
+**ラグー:** もう無理だ。終わりにしないか？もうわかった。言いたいことは分かった、本当だ。
+
+**SCP-8000:** Are you sure? You said you wanted recognition, but you //are// recognized. You were already successful before you became Site Director. Mr. Anthony said it himself: you reached a very high rank at a very young age, but that wasn't good enough, so you pushed further. When you became Site Director, the responsibility that came with it wasn't what you expected. It was fine, for a time, because the novelty hadn't worn off.
+**SCP-8000:** 本当に？認められたいって言ってたけど、君は認められてるよ。サイト管理官になる前から既に成功していたんだ。アンソニーさんも言ってたけど、君は若いのにとても高い地位に就いた。なのにそれに飽き足らず、もっと上を目指した。サイト管理官になった時、それに伴う責任があると君は思ってもみなかった。目新しい仕事だったから一時的に問題がなかっただけ。
+
+**Lague:** The recognition doesn't matter if the hunt turns me into the world's biggest asshole. I'm at a ceiling. I have everything I wanted since I was a kid — money, power, respect, friends who care — and it's still not enough. What's there to even reach from here? There's nothing above that.
+**ラグー:** 追求によって私が世界一の大バカ野郎になったとしても、承認は関係ない。私の人生はもう頭打ちだ。子供の頃から欲しかったもの――金、権力、名誉、気にかけてくれる友人は全て手に入れたが、それでもまだ足りない。ここから何を目指すというんだ？その上にはもう何もない。
+
+**SCP-8000:** You're right. There isn't much more to reach for. Despite that, you'll try to reach for it regardless.
+**SCP-8000:** そうだね。手を伸ばして届くようなものはこれ以上ない。それなのに、君はむやみに手を伸ばそうとする。
+
+[[/div]]
+
+@@ @@
+
+[[div class="testfile"]]
+[[=]]
+[[size 135%]] **RECOVERED DOCUMENTATION 8000.9-10** [[/size]]
+[[size 135%]] **回収された文書 8000.9-10** [[/size]]
+//03/22/2024//
+//2024/03/22//
+[[/=]]
+
+**Context:** An abridged catalog of the anomalies discovered by Seeker. Cont.
+**経緯:** シーカーが発見したアノマリーの略述総覧 (続き)。
+
+[[div class="addendum"]]
+= **__SEEKER.13__**
+= **__SEEKER.13__**
+
+**Input Universes:** 629,814,230
+**入力宇宙数:** 629,814,230
+**Parameters:** '' 'ALIVE' 'SAPIENT' 'WEAPON' 'OLD'
+**条件:** '' '生命' '知性' '武器' '前時代'
+----
+**Seeker Discovery:** Anomaly is triangulated to a desert in Nevada.
+**発見:** ネバダ州の砂漠にてアノマリーは特定された。
+----
+
+[[div class="scp-image-block block-center" style="width:100%;"]]
+[[image https://scptestwiki.wdfiles.com/local--files/plaguek8/spaghettijones.png style="width:100%;" link=#]]
+[[div class="scp-image-caption" style="width:100%;"]]
+SCP-13-SEEK.
+SCP-13-SEEK。
+[[/div]]
+[[/div]]
+
+**Truncated Description:** SCP-13-SEEK is a sapient humanoid resembling common depictions of cowboys in media. SCP-13-SEEK is comprised entirely of spaghetti.
+**概略:** SCP-13-SEEKは映像媒体で広く描写されるカウボーイに似た人型知性体である。SCP-13-SEEKは全身がスパゲッティで構成されている。
+
+[[div class="interview"]]
+= **TRANSCRIPT**
+= **書き起こし**
+-----
+**SCP-13-SEEK:** Howdy there.
+**SCP-13-SEEK:** やあ、そこの人。
+
+**Lague:** What's your deal?
+**ラグー:** なんだなんだ。
+
+**SCP-13-SEEK:** You got a name there?
+**SCP-13-SEEK:** そちらの名前は？
+
+**Lague:** Please, come on. What's your deal?
+**ラグー:** お願いだから、早く教えてくれ。何の用だ？
+
+**SCP-13-SEEK:** You're in a hurry to get nowhere fast, my friend. My name's Spaghetti Jones and this is my horse, Ricky-Tony.
+**SCP-13-SEEK:** そんなに急いでどこにいくつもりなんだい、友よ。俺はスパゲッティ・ジョーンズ、こいつは俺の馬のリッキー・トニーだ。
+
+//(SCP-13-SEEK and its horse bow their heads in unison.)//
+//(SCP-13-SEEKと馬が同時に一礼する。)//
+
+**Lague:** What do you do?
+**ラグー:** 何をしているんだ？
+
+**SCP-13-SEEK:** I go where the wind takes me.
+**SCP-13-SEEK:** 風の吹くまま赴くのさ。
+
+**Lague:** So you do nothing.
+**ラグー:** 何もしていないんだな。
+
+**SCP-13-SEEK:** I guess you could say that. It's a peaceful life.
+**SCP-13-SEEK:** そうとも言えるかもしれないね。平和な生活さ。
+
+**Lague:** What do you eat?
+**ラグー:** 君は何を食べる？
+
+**SCP-13-SEEK:** Food.
+**SCP-13-SEEK:** 食べ物さ。
+
+**Lague:** Like what? What's your favorite food?
+**ラグー:** 例えば？好きな食べ物は？
+
+**SCP-13-SEEK:** I love me a nice juicy steak, rare.
+**SCP-13-SEEK:** おいしくてジューシーなステーキが大好きだよ、焼き方はレアでね。
+
+**Lague:** Like cow?
+**ラグー:** ビーフステーキとか？
+
+**SCP-13-SEEK:** I don't believe they make steak of any other creature.
+**SCP-13-SEEK:** 他の生き物のステーキを食べようとは思わないね。
+
+**Lague:** Okay. You're a guy who's made out of spaghetti and you think it's 1870.
+**ラグー:** オーケー。君はスパゲッティでできた男で、今を1870年だと思ってるのか。
+
+**SCP-13-SEEK:** It's not 1870?
+**SCP-13-SEEK:** 1870年じゃないのか？
+
+**Lague:** If you were me, and you were looking for something amazing, would you be happy if you found you?
+**ラグー:** 君が私だとして、何か素晴らしいものを探していたとしたら、君を見つけたら嬉しいと思うか？
+
+**SCP-13-SEEK:** I'm happy with myself. I think I'm a nice guy. Ricky-Tony's a sweet fella, too. I'm content. Is that so bad?
+**SCP-13-SEEK:** 俺は自分に満足しているよ。俺はいい男だと思う。リッキー・トニーもいいヤツだ。俺は満足してる。よくないことかな？
+
+**Lague:** That's not what I was asking.
+**ラグー:** そんなことは聞いていない。
+
+**SCP-13-SEEK:** You sure about that, partner? Are you happy with yourself?
+**SCP-13-SEEK:** 本当にそれでいいのか？相棒。自分に満足しているか？
+
+**Lague:** I'm not happy that a billion-dollar piece of tech found //you//.
+**ラグー:** 10億ドルする技術の欠片が君を見つけたなんて、私は喜ばしく思えないね。
+
+**SCP-13-SEEK:** Welp, I didn't ask to be found. That wasn't an answer to my question either.
+**SCP-13-SEEK:** はあ、見つけてくれなんて俺は頼んでないよ。それに俺の質問に答えてないな。
+
+**Lague:** You're not good enough, I'm sorry.
+**ラグー:** 君では不十分なんだ、すまない。
+
+**SCP-13-SEEK:** My friend, as rude as you were, I hope you have a swell evening.
+**SCP-13-SEEK:** わが友よ、君のように不躾なことを言ってしまったがどうか良い夜を。
+
+//(SCP-13-SEEK and its horse bow their heads in unison and move away from Lague.)//
+//(SCP-13-SEEKと馬は同時に一礼し、ラグーから離れていく。)//
+[[/div]]
+[[/div]]
+
+[[div class="addendum"]]
+= **__SEEKER.22__**
+= **__SEEKER.22__**
+
+**Input Universes:** 932,143,994
+**入力宇宙数:** 932,143,994
+**Parameters:** '' 'ALIVE' 'KETER' 'HOSTILE' 'ROBOTIC'
+**設定:** '' '生命' 'KETER' '敵対的' '機械的'
+----
+**Seeker Discovery:** Anomaly is triangulated to a residential home in New York City, New York, USA.
+**発見:** アメリカ、ニューヨーク市の住宅にてアノマリーは特定された。
+----
+
+[[div class="scp-image-block block-right" style="width:10%;"]]
+[[image https://scptestwiki.wdfiles.com/local--files/plaguek8/elmo3.png style="width:100%;" link=#]]
+[[div class="scp-image-caption" style="width:100%;"]]
+SCP-22-SEEK.
+SCP-22-SEEK。
+[[/div]]
+[[/div]]
+
+**Truncated Description:** SCP-22-SEEK is a sapient //Tickle-Me-Elmo// branded toy.
+**概略:** SCP-22-SEEKは知性を有する“くすぐりエルモ”ブランドのおもちゃである。
+
+SCP-22-SEEK's sapience can only be observed after a direct attempt at conversation combined with a tickling motion on its abdomen. Despite speaking like the fictional character of Elmo, SCP-22-SEEK displays no similarities to the character's personality.
+SCP-22-SEEKの知性は腹部をくすぐる動作と組み合わせて直接会話を試行した後にのみ観測が可能である。SCP-22-SEEKは架空のキャラクターであるエルモのように会話するが、エルモの性格とは一切が異なる。
+
+[[div class="interview"]]
+= **TRANSCRIPT**
+= **書き起こし**
+-----
+**Lague:** Do you eat kids?
+**ラグー:** 子どもを食べるのか？
+
+//(Lague tickles SCP-22-SEEK.)//
+//(ラグーがSCP-22-SEEKをくすぐる。）//
+
+**SCP-22-SEEK:** Hah-hah-hah. Hah-hah-hah. No. Are you sick in the head?
+**SCP-22-SEEK:** ハハハ。ハハハ。いいや。頭だいじょうぶ？
+
+**Lague:** It's been a long few days.
+**ラグー:** 長い数日を過ごしたものでな。
+
+//(Lague tickles SCP-22-SEEK.)//
+//(ラグーがSCP-22-SEEKをくすぐる。)//
+
+**SCP-22-SEEK:** Hah-hah-hah. Hah-hah-hah. Elmo doesn't know what monster would eat kids. Elmo sticks to the adults. Much more meat.
+**SCP-22-SEEK:** ハハハ。ハハハ。エルモはどんなモンスターが子どもを食べるのか、エルモはわかんないや。エルモは大人にやみつき。ずっと肉が多いから。
+[[/div]]
+[[/div]]
+
+**Context:** Dr. Cimmerian ordered Director Lague to an emergency meeting.
+**経緯:** シメリアン博士はラグー管理官に緊急会議出席を命じた。
+
+[[div class="interview"]]
+= **<<BEGIN LOG>>**
+= **<<ログ開始>>**
+
+**Lague:** Jer, I'm gonna be honest with you, there's not a single fucking thing you can say to me that won't piss me off.
+**ラグー:** ジェル、正直に言っておくが、今の私はペンが転がっただけでもキレるぞ。
+
+**Cimmerian:** I don't know how gentle I need to be. I'm worried for you—
+**シメリアン:** どこまで優しくしたらいいのかがわからない。君のことを思って――
+
+**Lague:** I've done this all alone for the past godforsaken //month//. You wanted me to do the work I needed to do. I'm looking for the most dangerous anomalies we don't have contained, and I'm containing them.
+**ラグー:** この惨めな一月の間、独力でやってきた。君は私に必要な業務をしてほしかった。未収容で最も危険なアノマリーを探し、そして収容した。
+
+**Cimmerian:** You've found 25 anomalies, most of which have a taste for human flesh.
+**シメリアン:** 君は25のアノマリーを発見したが、そのほとんどは人肉を好む。
+
+**Lague:** Oh my god. I would think that you, of all people, would be able to understand how basic fucking science works! I'm //working// on it. Before you forced me into this meeting, I was almost done with the remaining adjustments.
+**ラグー:** なんてことだ。他でもない君らなら基礎科学の仕組みくらいわかると思ってたのに！私はそれに取り組んでいる。君が私をこの会議に無理やり引っ張ってくる前に、残りの調整はほとんど済ませておいた。
+
+**Cimmerian:** What do you want to find, exactly? A god?
+**シメリアン:** 本当は何を見つけたいんだ？神か？
+
+**Lague:** That wouldn't be the worst thing.
+**ラグー:** それよりヤバいものなんていくらでもあるだろう。
+
+**Cimmerian:** And then what? Contain it yourself, too? You need to reevaluate this whole situation.
+**シメリアン:** それで？自分自身も収容するか？君は今の状況全体を見直す必要がある。
+
+**Lague:** I am on the cusp of solving every single issue I have in my life.
+**ラグー:** 私は人生のあらゆる問題を解決しようとしている。
+
+**Cimmerian:** I met with the engineers. They're convinced that if you go over the 1 billion universes mark, it will end very, very badly. You have a ticking timebomb in your Site. Do you understand the danger you're putting yourself and others in?
+**シメリアン:** 技術官と会ったよ。宇宙の数が10億を超えると、本当に、マジで最悪なことになると確信していた。君のサイトにあるのは時限爆弾だ。君自身や他の人たちを危険に晒しているのが分からないか？
+
+**Lague:** I'm done after today. I changed some parameters, and it's going to give me exactly what I've been looking for. Last time, scout's honor. See ya!
+**ラグー:** 今日で終わる。設定をいくつか変えたから、探し続けていたものがちょうど見つかるさ。誓って、これが最後だ。それじゃ、また会おう！
+
+//(Director Lague exits.)//
+//(ラグー管理官が退室する。)//
+
+= **<<END LOG>>**
+= **<<ログ終了>>**
+[[/div]]
+
+**Context:** Director Lague calls a meeting with all Site-322 personnel in order to display the next anomaly discovered by Seeker.
+**経緯:** ラグー管理官はシーカーが発見した更なるアノマリーを発表するためにサイト-322の全職員を会議に招集した。
+
+[[div class="interview"]]
+= **<<BEGIN LOG>>**
+= **<<ログ開始>>**
+-----
+**Foreword:** Lague ordered all Site-322 personnel to meet at the Seeker laboratory.
+**前記:** ラグーはサイト-322の全職員にシーカー研究所へ集まるよう命じた。
+-----
+
+**Lague:** You're probably wondering why I've called everyone here. Today, I find my crowning achievement. The anomaly that this wonderful machine discovers today will not be a cannibal but instead will be my, and by extension, your Magnum Opus.
+**ラグー:** 何故皆をここへ呼びつけたのか不思議に思っていることだろう。本日、私は最高傑作を見つける。このワンダフルなマシンが本日発見するアノマリーは人食い人種ではなく、私の、延いては皆のマグヌム・オプス[[footnote]]**訳注:** 大いなる業。特定個人の最大で最高の作品。[[/footnote]]となるだろう。
+
+//(Scattered applause.)//
+//(まばらな拍手)//
+
+**Lague:** This was a lot of work. Far too much, some could even say. I've calibrated Seeker perfectly—
+**ラグー:** 大変な仕事だった。あまりに多すぎたとも言える。シーカーを完璧に調整し――
+
+**Coix:** That thing is going explode.
+**コイクス:** 爆発しますよ、あれ。
+
+**Lague:** Do you have to be so dark? Everything is all set up; parameters are in, and I even reconfigured the stabilization to account for the wormhole.
+**ラグー:** そう後ろ向きになる必要はあるのか？準備は整った。設定は入力されているし、ワームホールも考慮して安定性も再設定した。
+
+**Chief Engr Hartwell:** HUH?
+**ハートウェル主任技術官:** なんだって？
+
+**Lague:** All I need to do is push th—
+**ラグー:** 後はこのボタンを押すだけで――
+
+//(Camera feed dies.)//
+//(カメラ映像が途切れる。)//
+
+= **<<END LOG>>**
+= **<<ログ終了>>**
+[[/div]]
+[[/div]]
+
+@@ @@
+
+[[div class="ooo"]]
+
+//The pair journey into the darkest part of the hall. The orbs of golden light are absent, replaced by small, dim lights resembling floating shards of glass.//
+//二人の旅路は広間の最暗部へと差し掛かる。金色の発光体の姿はなく、ガラス片が浮遊しているかのような、ぼんやりとした小さな光に変わっている。//
+
+**SCP-8000:** To you, this hasn't happened yet. I plucked you out before, but you have made the decisions that led us to where we are now.
+**SCP-8000:** 君には、まだこんなことは起こっていない。前は無理やり君を引き離したけど、君はもう既に決断している。それが僕を導いたんだ。
+
+//The shelves grow more and more empty.//
+//書架はどんどん空になっていく。//
+
+**SCP-8000:** All of this will happen should I release you now and let you go alone. Do you remember your meeting before I stepped in?
+**SCP-8000:** 今、君を解放して一人にすれば、これら全てが起こってしまうだろうね。僕と出会う前の会議を覚えてる？
+
+**Lague:** No. I mean, I remember the meeting, but I don't remember the details.
+**ラグー:** いや、会議があったことは覚えているが、詳細は覚えてない。
+
+**SCP-8000:** I'm always curious why this happens to my weary travelers. The forgetfulness.
+**SCP-8000:** 僕はいつも、疲れた旅行者になぜこんなことが起こるのか不思議だよ。忘れっぽいんだよね。
+
+//SCP-8000 and Lague approach a final shelf. Immense emptiness fills the void beyond it. A single book lays on this shelf. It's white, with no back cover, as it appears to have been burnt away.//
+//SCP-8000とラグーは最奥の書架に接近する。その先には膨大な虚無が満ちている。書架には一冊の本が置かれている。それは白く、裏表紙はなく、焦げついているようである。//
+
+**SCP-8000:** Read it.
+**SCP-8000:** 読むんだ。
+
+[[div class="interview"]]
+//A discussion with a worried friend.//
+//心配する友人との議論。//
+
+//A half-baked intervention.//
+//中途半端な介入。//
+
+//A project proposal.//
+//プロジェクトの提言。//
+
+//Dishonesty to the Overseer Council.//
+//監督評議会に対する不誠実な態度。//
+
+//A man's bold-faced obstinance and belief he's the only one who can solve himself.//
+//大胆なまでの頑固さと自分だけで解決できるという妄想。//
+
+//Four creatures who don't reach the unreachable standard.//
+//到達不能な水準に達しない、四体の怪物。//
+
+//A man's stubborn qualities flare in the face of the last person who reaches out.//
+//最後まで手を差し伸べてくれた人の前で燃え上がる頑固さ。//
+
+//An avoidable mistake.//
+//避けられたはずの過ち。//
+
+-----
+
+//Director Lague and SCP-8000 appear in a crater along the bank of a gated river. Crystalline shards lie around them, as well as chunks of concrete, rebar, and glass. The air is hot and smells of sulfur. Lague looks at his surroundings, palpable fear growing on his face.//
+//ラグー管理官とSCP-8000は河川沿いの堤防にある凹地内に現れる。水晶片やコンクリート塊、鉄筋塊、ガラス塊が一帯に散乱している。空気は熱く、硫黄の臭いが立ち込めている。ラグーは周囲を見渡すと、その表情に明確な恐怖が浮かぶ。//
+
+**SCP-8000:** Do you know where we are?
+**SCP-8000:** ここがどこかわかる？
+
+**Lague:** I—
+**ラグー:** 私は――
+
+**SCP-8000:** You know, and I know you do.
+**SCP-8000:** 君は知っているんだよ。何をしたかも。
+
+//[...]//
+//[...]//
+
+**Lague:** What happened?
+**ラグー:** 一体、何が。
+
+**SCP-8000:** The Seeker machine had a meltdown, Mr. Paul. It collapsed in on itself. Wormholes are a fickle thing, I would know. Highly unstable, but you built it up to withstand a lot. You managed to push past that boundary with your obsessive search for glory. You put in some combination of parameters that didn't exist in any known universe — something so specific, so impossible — it cracked.
+**SCP-8000:** シーカーマシンがメルトダウンを起こしたんだよ、ミスター・ポール。自爆だった。ワームホールというのは気まぐれなものだ。非常に不安定でも、君は十分耐えられるようにマシンを作った。君は栄誉を求めるあまり、愚かにも一線を越えてしまった。どんな既知の宇宙にも存在しないような――とても明示的で、全く不可能な設定の組み合わせを入力した。そして、割れた。
+
+//Lague paces around, finding tattered clothing and lab equipment.//
+//ラグーは辺りを歩き回り、ボロボロの衣服や実験器具を見つける。//
+
+**SCP-8000:** Your Site is gone.
+**SCP-8000:** 君のサイトはもうない。
+
+//Lague encounters splinters of wood that once belonged to his desk.//
+//ラグーはかつてデスクの上にあった木の裂片と出会う。//
+
+**SCP-8000:** Your people are gone.
+**SCP-8000:** 君の仲間はもういない。
+
+//He digs in the mud, and finds his lanyard for his Site-322 keycard.//
+//ラグーは泥を掘って、自分のサイト-322キーカードの紐を見つける。//
+
+**SCP-8000:** You are gone.
+**SCP-8000:** 君は、もういない。
+
+//(Silence.)//
+//(沈黙)//
+
+**SCP-8000:** Mr. Paul?
+**SCP-8000:** ポールさん？
+
+**Lague:** You said this will happen. So, has it?
+**ラグー:** 君は、いずれこうなると言った。そうなのか？
+
+**SCP-8000:** In the timeline where you didn't meet me, it did.
+**SCP-8000:** 君と僕が出会わないタイムラインでは、そうだった。
+
+**Lague:** You stopped it?
+**ラグー:** 止めたのか？
+
+**SCP-8000:** I stopped nothing, Mr. Paul. My attention was only drawn towards you because of this tragedy. I see death and destruction every day; it almost all deals with groups of people making decisions with some form of history I could look at and maybe understand their reasoning, but I told you you were a unique case. I looked through your history, hoping to find some sort of triggering event that could explain what happened, but there wasn't one. Every step of the way, you ignored your better judgment and the advice of others. You let your worst tendencies smolder into an uncontrollable blaze, and it caused this.
+**SCP-8000:** ポールさん、僕は何も止めなかったよ。この悲劇があったから、僕の注意は君に引かれた。僕は毎日、死と崩壊を見ている。死や崩壊といったものはほとんど全てが歴史の転換点となる決断を下す人々の集団に関わっていて、僕にもその可能性は見ることはできるし、原因も理解はできる。だけど、今回は特異なケースってことは伝えておくよ。君の歴史を見て、何が起こったのかを説明できるようなトリガーがないかと願って探したけれど、何もなかった。君は常に自分の判断と他人の助言を無視してきたね。君は自身の最悪な傾向を抑えきれない炎に鬱積させてしまった。それが事態の原因だ。
+
+**Lague:** Why? Let me fix it, please! I can fix this. I can. I know I can. You can give me that chance, just— just put me back!
+**ラグー:** 何故こんなことに？直させてくれ、頼む！直せるんだ。できる。できるんだよ。チャンスをくれるなら、ただ――元に戻してくれ！
+
+**SCP-8000:** I thought maybe, //maybe// I could stop it. I could intervene right as you jump into the deep end and see if I could draw you back over the edge. Cimmerian was your last lifeline. Starting there felt only natural.
+**SCP-8000:** 僕はきっとね、きっと止められると思ったんだ。君が深淵へと身を投げた瞬間に介入することで淵から引き戻せないか試した。シメリアンは最後の命綱だった。だからそこから始めるのが自然だと思った。
+
+**Lague:** Oh my god, I can't believe this. This isn't fucking happening.
+**ラグー:** なんてことだ、信じられない。絶対ありえない。
+
+**SCP-8000:** I tried, Mr. Paul. Believe me, but you're stubborn. You've been unreceptive to everything I've tried to show you.
+**SCP-8000:** 僕も尽力したんだよ、ポールさん。信じてほしい。でも君は頑固だ。僕が見せようとしたもの全てを拒絶した。
+
+**Lague:** I understood it. I understood it all; I'm just an asshole who can't look in the fucking mirror. I'm a fuck up. What does knowing that mean in the end? I am who I am. I'll never be satisfied, and that's the way it is.
+**ラグー:** 理解した。全部理解したさ。私は鏡も見られないただのクソ野郎だ。私はクソだ。知ったところで、結局何の意味がある？私は私だ。私は絶対に満足なんてできない、それが現実だ。
+
+**SCP-8000:** That way of thinking has only led you to where we are now.
+**SCP-8000:** その考えが今の状況を招いたんだよ。
+
+**Lague:** I can't fucking fix this alone.
+**ラグー:** 一人じゃ直せやしない。
+
+**SCP-8000:** You can fix this by yourself. You need to reflect upon yourself; see what I see. You have success, but you need to appreciate it.
+**SCP-8000:** 一人でできるさ。自分を振り返らなければならない。僕が見てきたものを見て。君には成功体験がある。そして、それを尊重する必要がある。
+
+**Lague:** How? How the fuck can I fix this with everything you've seen?
+**ラグー:** どうやって？君が見てきたもの全てをどう直せと？
+
+**SCP-8000:** I saw a kid who didn't believe in himself become a man who couldn't cope with the thought that no one else would believe in him. Despite all of this, look at you now.
+**SCP-8000:** 自分を信じなかった子どもが、誰も自分を信じてくれないという考えに耐え切れなくなった男になるのを見てきた。それが全てなのだけど、今の自分を見てごらん。
+
+//SCP-8000 draws a Batman logo in the sand with a flipper. Lague's eyes well with tears.//
+//SCP-8000がヒレで砂にバットマンのロゴを描く。ラグーは涙を滲ませる。//
+
+**SCP-8000:** I'm not in the business of cruelty, Mr. Paul. Let's leave this place.
+**SCP-8000:** ポールさん、残酷なことをするのは僕の本分じゃない。ここから出よう。
+
+//SCP-8000 closes the book. The pair return to the library. The air feels more still, and the shards of light have dissipated, leaving them in almost total darkness.//
+//SCP-8000は本を閉じる。二人は図書館に戻る。空気はより静まり返り、光の破片は消え去り、二人はほとんど真っ暗闇に取り残された。//
+
+**Lague:** I'm not happy with myself. I never have been.
+**ラグー:** 自分に満足できない。今までずっと。
+
+//The shelves rattle.//
+//書架がガラガラと音を立てる。//
+
+**SCP-8000:** I know.
+**SCP-8000:** 知ってる。
+
+**Lague:** I can't let this happen. I can't. This— I wasn't fucking made for this.
+**ラグー:** こんなこと起こすはずがない。そんなはずはない。私はこんなもののために生まれたんじゃない。
+
+**SCP-8000:** Most of us aren't, but we all find our way. You have.
+**SCP-8000:** みんなそうなんだよ。でも、自分で道を見つける。君にもある。
+
+**Lague:** I can't let all that work and time be for nothing. I can't let everything I've worked for be rendered a crater in the middle of nowhere. I can't be this hollow fucking shell smiling through problems I made for myself.
+**ラグー:** 仕事と時間全てを無駄にはできない。私の努力がみんな、荒れ地のど真ん中のクレーターと化すのはごめんだ。自分の起こした問題を微笑んで見ているような、中途半端な抜け殻になっていいはずがない。
+
+**SCP-8000:** Do you trust yourself?
+**SCP-8000:** 自分を信じる？
+
+**Lague:** Jesus Christ, what is wrong with me?
+**ラグー:** クソ、私の何が悪かったんだ。
+
+//The shelves rattle violently. Echoed patters and smacks permeate the hall as books dance off the shelves and plunge to the floor.//
+//書架が荒々しい音を立てて揺れる。本が書架から舞い落ちて床に叩きつけられると、パタパタとガツンという音が広間に響き渡る。//
+
+**SCP-8000:** You may have your issues, but you have the ability to fix all of this.
+**SCP-8000:** 君は問題を抱えているかもしれないけど、この状況の全てを解決する力が君にはある。
+
+**Lague:** My god. I made a life and friends there. Everything I've ever worked for was in that building. That was my success. This is my success. I spent more time crying that I couldn't look myself in the mirror instead of what I did.
+**ラグー:** 畜生。私はあそこで人生を過ごしてきて、友人もできたんだ。あのビルの中で今までずっと働いてきた。これが私の成功だったんだ。これが私の成功だ。自分の成したことに快哉を叫ぶよりも、鏡の中の自分を見ることができないことを嘆く時間の方が長かった。
+
+//The ground below the pair rumbles. The flooring beneath Lague cracks as if struck by a large force. More books fall to the floor behind them, sounding like hailfall. The vines and foliage lining the shelves sway as if they're being blown by hurricane-level winds.//
+//二人の足元が唸りを上げる。ラグーの足元がまるで強大な力で殴られたかのようにひび割れる。雹が降るような音を立てながら、さらに多くの本が二人の背後に落ちる。書架に沿って生えた蔓と群葉が、まるでハリケーン級の風に吹かれているかのように揺れる。//
+
+**SCP-8000:** //Do you trust yourself?//
+**SCP-8000:** 自分を、信じるんだね？
+
+**Lague:** I can't live like this anymore. I'm tired of feeling like I'm never good enough. I can't look at someone else being happy and feel awful instead of happy with them. I'm good enough. I've always been good enough.
+**ラグー:** こんな人生はもうたくさんだ。自分が全く力不足だと感じるのにも疲れた。誰かが幸せそうにしているのを見るのも、そして一緒に幸せを感じるのではなくひどい気分になるのもできない。私はできる。いつでもできる奴なんだ。
+
+//Suddenly, the empty shelves behind Lague burst with light. The rumbling stops. The books float back up to their original spots on the shelves. The foliage returns to its regular state. The cracks remain beneath Lague.//
+//突然、ラグーの背後にある空の書架が光を放った。唸りが止む。本が浮き上がって、元あった場所へ戻っていく。葉はいつもの状態に戻る。ラグーの足元には亀裂が残っている。//
+
+**SCP-8000:** Mr. Paul. //Do you trust yourself?//
+**SCP-8000:** ポールさん。自分を、信じるかい？
+
+**Lague:** I trust myself. I can fix this.
+**ラグー:** 私を信じる。私なら直せる。
+
+**SCP-8000:** There it is.
+**SCP-8000:** やればできるじゃないか。
+
+//The previously empty shelves are now filled with hundreds of white books of varying sizes and shapes. Lague looks at them in awe.//
+//以前は何もなかった書架が、今は大きさも形状も様々な何百冊もの白い本で埋め尽くされている。ラグーはそれを恐る恐る眺める。//
+
+**Lague:** What's this?
+**ラグー:** これは？
+
+**SCP-8000:** These are unwritten memories. Your life doesn't end prematurely anymore. Now, you can return to your home, to your friends, and to your work. You can succeed in your own way and fill these books.
+**SCP-8000:** 何も書かれていない記憶だよ。君の人生はもはや早すぎる結末を迎えるものじゃない。今、君は家に、友人に、仕事に戻ることができる。自分のやり方で成功し、この本を埋めることができる。
+
+**Lague:** Everything's determined?
+**ラグー:** 運命は決められているのか？
+
+**SCP-8000:** No, Mr. Paul. These are empty books to be written and filled with the choices you may make. You may return and disregard every bit of advice and knowledge I've given you, and these books will vanish once more. Or, you can return and give me some more reading to catch up on. This is all up to you.
+**SCP-8000:** 違うよ、ポールさん。これは空っぽの本であって、君の選択で記し、満たすものだ。君は戻って僕が教えたアドバイスや知識を全部無視してもいい。そしたら、この本はもう一度全部消えてしまうだろうね。つまり、また戻ってこれるし、僕の本を読む負担を増やすこともできるということだ。全て君次第なんだ。
+
+[[/div]]
+[[/div]]
+
+@@ @@
+
+[[div class="testfile"]]
+[[=]]
+[[size 135%]] **RECOVERED DOCUMENTATION 8000.9-10** [[/size]]
+[[size 135%]] **回収された文書 8000.9-10** [[/size]]
+//03/22/2024//
+//2024/03/22//
+[[/=]]
+
+**Context:** Dr. Cimmerian ordered Director Lague to an emergency meeting.
+**経緯:** シメリアン博士はラグー管理官に緊急会議出席を命じた。
+
+[[div class="interview"]]
+= **<<BEGIN LOG>>**
+= **<ログ開始>>**
+
+**Lague:** Jer, I'm gonna be honest with you, there's not— Oh //shit.// Oh my god!
+**ラグー:** ジェル、正直に言っておくが、今の私は――は、マジか。神よ！
+
+//(Director Lague sits across from Dr. Cimmerian.)//
+//(ラグー管理官がシメリアン博士の対面に座る。)//
+
+**Cimmerian:** You're manic.
+**シメリアン:** 君は躁状態だ。
+
+**Lague:** Probably! Oh, thank god.
+**ラグー:** だろうな！ああ、よかった。
+
+**Cimmerian:** Look, Paul, I don't know how gentle I need to be. I'm worried for you. What I've seen and read over the last month makes you seem unfit for this position. This project is a ticking time bomb. I'm worried for the safety of everyone in this Site, and moreover, I'm concerned with your safety.
+**シメリアン:** なあ、ポール、どこまで優しくしたらいいのかがわからない。君のことが心配なんだ。この一月の間に私が見たり読んだりしてきたものは、君がこの立場に相応しくないと思わせるものだった。このプロジェクトは時限爆弾だ。サイトにいる全員の安全が心配だし、なおかつ君の安全も心配だ。
+
+**Lague:** I know, you're right.
+**ラグー:** そうだな。君が正しいよ。
+
+**Cimmerian:** Are you serious?
+**シメリアン:** 本気で言ってるのか？
+
+**Lague:** //[...]// Yeah.
+**ラグー:** ……ああ。
+
+**Cimmerian:** Oh. Alright. I feel like I'm watching you suffer in self-imposed silence. Please, and for the last time, tell me what is going on.
+**シメリアン:** そうか、わかった。君が自ら課した沈黙の中で苦しんでいるのを見ていたような気分だ。頼む、最後にもう一度、何が起こっているのかを教えてくれ。
+
+**Lague:** I—
+**ラグー:** 私は――
+
+//[...]//
+//[...]//
+
+**Lague:** I should have listened to you. I know you were trying to help.
+**ラグー:** 私は君の言うことを聞くべきだった。助けようとしてくれていたのはわかってる。
+
+**Cimmerian:** I still am.
+**シメリアン:** まだそうしているつもりだ。
+
+**Lague:** I'm sorry I pushed it all away, not just you, from everyone. All my life, I've been trapped in this cycle of jealousy and insecurity. I've only gotten out of it because of the people who genuinely cared for me.
+**ラグー:** 何もかもを遠ざけていたことは申し訳ない。君だけでなく、みんなのことも。私の人生はずっと、嫉妬と不安のサイクルに囚われてきた。私を純粋に気にかけてくれた人たちのおかげで、そこから抜け出せたに過ぎない。
+
+**Cimmerian:** Well, I'm not going to sit here and pretend I was expecting this.
+**シメリアン:** まあ、私はここに座るつもりも、期待していた振りをするつもりもない。
+
+**Lague:** You have no fucking idea what I just dealt with. There was this seal and— and—
+**ラグー:** まさに私がどんな目に遭っていたか、全くわかっていないだろう。このアザラシと……アザラシと……
+
+//(Cimmerian furrows his brow.)//
+//(シメリアンが眉を顰める。)//
+
+**Lague:** I'm not crazy. There was a seal, and I went into this library—
+**ラグー:** 私はおかしくなってないぞ。あそこにはアザラシがいて、私はこの図書館で――
+
+**Cimmerian:** Do I need to call someone?
+**シメリアン:** 誰か呼んでこようか。
+
+**Lague:** Fuck it. Doesn't matter.
+**ラグー:** クソが。どうでもいい。
+
+**Cimmerian:** I'm very confused.
+**シメリアン:** 訳が分からない。
+
+**Lague:** A few weeks ago, you told me you were here to help me.
+**ラグー:** 数週間前、君は私を助けるためにここにいると言ったな。
+
+**Cimmerian:** And I still am.
+**シメリアン:** 今もそうだ。
+
+**Lague:** This whole problem for me started after I finished [[[plague-s-proposal| my 001 proposal.]]]
+**ラグー:** 全ては私が001提言を終えてから始まった。
+
+**Cimmerian:** Those are big achievements. As far as I was told, you were happy with it.
+**シメリアン:** あれらは素晴らしい功績だ。聞き及ぶ限り、君はそれに満足していた。
+
+**Lague:** Yeah, I was happy. It's my crowning achievement. I got it all done up and published, but — like — that was it. It was well received by my peers and colleagues, I got the stamp of approval from the Council, and I went through fucking hell to get it done. The hard work paid off. The second I hit that publish button, I was on top of the world. Then... it just was. It's over. Then I was back to the real world, where I was just back— I was just //stuck// in the regular monotonous shlub work.
+**ラグー:** ああ、嬉しかったよ。最高の成果だ。全てを完成させて、世に出した。だが――ただ――それだけ。仲間や同僚たちからは好評だったし、評議会からもお墨付きをもらって、そのためにクソ苦労した。その苦労は報われた。投稿ボタンを押したその瞬間、私は世界の頂点に立った。それも……それだけだった。終わったんだ。そして、私は現実に戻り、戻ったその場所で……いつもの単調でつまらない仕事に、ただ雁字搦めになった。
+
+**Cimmerian:** You understand not everything you're going to work on will be these major projects, right?
+**シメリアン:** 君がこれから手がけようとしている業務が全部こんな一大プロジェクトになるわけではないことは理解しているよな？
+
+**Lague:** No— I mean, I do now. I felt like it was only downhill from there.
+**ラグー:** いや――ええと、今は理解しているって意味だ。そこからはずっと下り坂の気分だろうがな。
+
+**Cimmerian:** That's fair. You were returning back to your normal workload, it could be a shock to the system.
+**シメリアン:** そうだな。君が通常の仕事量に戻ろうとしていたのなら、それはとてもショックだったかもしれない。
+
+**Lague:** I felt like I reached the peak of my research eight years into my spot as a Director. Eight years! I couldn't shake that sense of all-encompassing dread. We have people in the Foundation who are immortal. I couldn't imagine that the rest of my life, or a prolonged life, could be spent chasing a high that might never come again. Regardless of whatever you consider a 'major project,' something like a proposal being published sets a new standard and expectations, and I couldn't reach them. I'll never be able to reach them.
+**ラグー:** 管理官に就任して8年目の時に研究のピークに達したと感じたんだ。8年！その全てを塗り潰すような恐怖を拭い去ることが私はできなかった。財団には不死身の者たちがいる。私の残りの人生、あるいは引き延ばされた寿命の全てが、二度と訪れないかもしれない高みを追い求めることに費やされることを想像したくなかった。君が「一大プロジェクト」と考えるものが何であれ、提言が世に出されるような事柄は新たな基準と予測を据える。そして、私はそこに達せなかった。私では決して達することができなかった。
+
+**Cimmerian:** And that's—
+**シメリアン:** そして、それは――
+
+**Lague:** It was like the day-to-day tasks — the things that were stepping stones into these larger accomplishments became a never-ending loop — a never-ending reminder that I wasn't there anymore. Responsibilities came back, and all it did was remind me that this major achievement was just a brief pause. I couldn't cope.
+**ラグー:** それは日々の業務――つまり――より大きな成果の足がかりとなるはずのものが、永遠に続くループとなる――自分がもうそこにいないことを永劫、思い出させられるのだ。責任が戻ってくると、この偉業は束の間の休息に過ぎなかったことを思い出させられる。私は対処できなかった。
+
+**Cimmerian:** I understand that. I'd be a liar if I told you you were the only person to experience that feeling.
+**シメリアン:** そのことは理解できる。その感覚を経験したのは君だけだと言ったら、私は嘘つきになってしまう。
+
+**Lague:** I know, but it never feels like that in the moment.
+**ラグー:** それは分かっている、だが、その瞬間は決してそういう風に思えない。
+
+**Cimmerian:** Fair enough.
+**シメリアン:** そうか。
+
+**Lague:** You know what I realized?
+**ラグー:** 私が気づいたことは何だと思う？
+
+**Cimmerian:** Hm.
+**シメリアン:** ふむ。
+
+**Lague:** That was never //my// proposal. I didn't solve anything. The only reason I managed to get anything successful out of that clusterfuck was because everyone here stood behind me and believed I had something tangible. They were the ones who worked on the containment procedures with me; they were the ones who calmed my nerves when I thought I was going to lose this job, and they were the ones I've been ignoring for this entire shitshow I've created this last month. I wish I fucking saw it sooner.
+**ラグー:** それは“私の”提案ではない。私は何も解決していない。私があの滅茶苦茶な大惨事でなんとか何かを成し遂げることができた唯一の理由は、ここにいる皆が私を支えてくれ、そして私の中に明確な何かがあると信じてくれたからだ。彼らは私と共に収容手順に頭を悩ませた人たちであり、私がこの仕事を失ってしまうと妄想したときに私の神経を宥めてくれた人たちであり、そして私がこの一月に作り上げた全くもってクソみたいな事態のために私が無視してきた人たちだった。もっと早く気付いていればと思わずにはいられない。
+
+**Cimmerian:** You have the chance to fix that now.
+**シメリアン:** 今ならそれを解決するチャンスがある。
+
+**Lague:** I know. I know I'll never be able to get rid of that feeling; I've had it my entire life, and it's brought me to heights I never could have imagined. I couldn't see the self-destruction that came with it; the lost relationships, the time wasted, the all-encompassing feeling of shit never getting better. I can cope with that. I've done it from day one, but I let it break me for the first time. It can't happen again. I won't let it.
+**ラグー:** そうだな。この感覚を忘れることは絶対に不可能だろう。私は産まれてこの方ずっとそうだったし、それが想像だにしなかった高みへと導いてくれた。私はそれが齎す自滅を悟ることはできなかった。失った人間関係、浪費した時間、一向にマシにならないという全てを塗り潰すような感覚。私はそれに対処できる。私は初日からそうしてきた。しかし、初めて屈してしまった。もう二度と繰り返したくない。そうしたくない。
+
+**Cimmerian:** Paul, at the end of the day, disregarding all the politics and bullshit we put on ourselves and each other, your standards are what you make them.
+**シメリアン:** ポール、結局のところ、自分自身やお互いに課した策謀やデタラメは無視して、君の基準は君が決めるものだ。
+
+**Lague:** God, do I know. You don't have to say that to me ever again.
+**ラグー:** ああ、わかるよ。もう二度と君にそんなことを言わせやしないさ。
+
+= **<<END LOG>>**
+= **<<ログ終了>>**
+[[/div]]
+
+**Context:** Director Lague calls a meeting with all Site-322 personnel.
+**経緯:** ラグー管理官はサイト-322の全職員を会議に招集した。
+
+[[div class="interview"]]
+= **<<BEGIN LOG>>**
+= **<<ログ開始>>**
+-----
+**Foreword:** Lague ordered all Site-322 personnel to meet at the Seeker laboratory.
+**前記:** ラグーはサイト-322の全職員にシーカー研究所へ集まるよう命じた。
+-----
+
+**Lague:** I know I was an asshole.
+**ラグー:** 私が大バカ野郎だったのは分かっている。
+
+**SCP-5595:** {{COUGH NOISE. STILL ARE. COUGH NOISE.}}
+**SCP-5595:** {{えへん。マダ、ソウダゾ。えへん。}}
+
+**Lague:** Thanks. I fucked up. I fucked up bad. I'm sorry; I know all of you had my best interest at heart. I've been in my own head and made it everyone else's problem for the sole reason I could. That's not a leader.
+**ラグー:** そりゃどうも。私がめちゃくちゃにしてしまった。申し訳ない、皆は私のことを一番に考えてくれていたと思う。私は自分の頭の中にいて、自分のできる唯一の理由のために、それをみんなの問題にしてしまった。リーダーとは言えないな。
+
+**Coix:** Paul, as much as we all appreciate that, the machine is still incredibly unstable.
+**コイクス:** ポール、みんなが感謝しているのと同じくらい、マシンはまだとんでもなく不安定なんです。
+
+**Lague:** I know. You have no goddamn idea how unstable it is.
+**ラグー:** 分かってる。君にだって想像できないくらい不安定だ。
+
+//(Murmors among the personnel.)//
+//(職員間でざわめきが起きる。)//
+
+**Lague:** We're going to be okay. Please don't worry. There was this seal— never mind. I'm going to sound more insane than I already have been. We're going to fix this together.
+**ラグー:** 私たちは大丈夫だ。心配しないでほしい。ここにいるアザラシは……気にするな。今の私は今まで以上に正気じゃないように聞こえるだろう。一緒に解決していこう。
+
+**Chief Engr Hartwell:** We need to lower its universal threshold to nothing and then reactivate it. That'll restabilize everything.
+**ハートウェル主任技術官:** 宇宙の閾値をゼロにする必要がある。そこから再起動させるんだ。そうすれば全部安定する。
+
+**Lague:** Got it.
+**ラグー:** わかった。
+
+//(Lague activates Seeker's GUI. Lowering the number of universes to be scanned down to 1.)//
+//(ラグーはシーカーのGUIを起動し、スキャンする宇宙の数を1まで下げる。)//
+
+**Lague:** Is that right?
+**ラグー:** これでいいか？
+
+**Chief Engr Hartwell:** Yeah. Reactivate it now.
+**ハートウェル主任技術官:** ああ。すぐに再起動しろ。
+
+[[div class="addendum"]]
+= **__SEEKER.25__**
+= **__SEEKER.25__**
+
+**Input Universes:** 1
+**入力宇宙数:** 1
+**Parameters:** N/A
+**設定:** N/A
+----
+**Seeker Discovery:** Anomaly is triangulated to the sky above Site-322.
+**発見:** サイト-322の上空にてアノマリーは特定された。
+
+[[/div]]
+
+**Coix:** That's something.
+**コイクス:** 何かいる。
+
+**Lague:** That's the one.
+**ラグー:** それだ。
+
+= **<<END LOG>>**
+= **<<ログ終了>>**
+
+[[/div]]
+[[/div]]
+
+@@ @@
+@@ @@
+
+[[div]]
+[[include :scp-jp:component:anomaly-class-bar-source
+|item-number= 8000
+|clearance= 1
+|container-class= safe
+|secondary-class= none
+|disruption-class= none
+|risk-class= none
+]]
+
+[[include :scp-jp:component:customizable-acs
+|containment-class= safe
+|containment-image= https://scp-wiki.wdfiles.com/local--files/component%3Aanomaly-class-bar/safe-icon.svg
+|containment-color= 176, 216, 247
+|inc-neutralized-layout = --]]]
+
+[[include :scp-jp:component:customizable-acs
+|clearance-one= 176, 216, 247
+|inc-clearance= --]]]
+[[/div]]
+-----
+[[div class="scp-image-block block-center" style="width:100%;"]]
+[[image https://scptestwiki.wdfiles.com/local--files/plaguek8/sealsky.png style="width:100%;" link=#]]
+[[div class="scp-image-caption" style="width:100%;"]]
+SCP-8000.
+[[/div]]
+[[/div]]
+-----
+**Special Containment Procedures:** SCP-8000 is currently uncontained.
+**特別収容プロトコル:** SCP-8000は現在未収容です。
+
+**Description:** SCP-8000 is an unidentified entity resembling an elongated Harbor Seal (//Phoca vitulina//), estimated to be 75 to 150 meters in length. SCP-8000's exact anomalous properties are unknown; based on eyewitness accounts, SCP-8000 is capable of self-propelled flight via unknown means.
+**説明:** SCP-8000は細長いゼニガタアザラシ (//Phoca vitulina//) に類似する未確認実体で、その全長は75m ~ 150mと推定されています。SCP-8000の正確な異常性は不明ですが、SCP-8000は未知の手段による自己推進飛行が可能であることが目撃者の証言より判明しています。
+
+The origin of SCP-8000 is unknown, as the entity disappeared from view soon after its discovery. A Foundation aircraft was deployed to SCP-8000's last known location, only to discover a small, self-repairing, possibly extradimensional rift lingering in present reality.
+発見直後に実体は姿を消したため、SCP-8000の起源は不明です。財団の航空機がSCP-8000の最後の既知の出現箇所へ向かいましたが、小さな自己修復が可能な程度に小さな異次元の裂け目が現在の現実に残っているのが発見されたのみでした。
+
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+
+[[footnoteblock]]
+----
+[[=]]
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-7999]]] | ##b0d8f7|**The Great Seal**## | [[[SCP-8001]]] >>
+[[/=]]
+[[/div]]
+-----
+
+[[include :scp-wiki:component:license-box]]
+> **Filename:** greatseal.png
+> **Author:** [[*user Valdevia]]
+> **License:** CC-BY-SA 3.0
+> **Source Link:** https://scp-wiki.wikidot.com/8000contestplaguepjp
+
+> **Filename:** seekert.png
+> **Author:** [[*user syuzhet]]
+> **License:** CC-BY-SA 3.0
+> **Source Link:** https://scp-wiki.wikidot.com/8000contestplaguepjp
+
+> **Filename:** ppheader.png
+> **Name:** Phillie Phanatic
+> **Author:** pvsbond
+> **License:** CC BY-SA 2.0 
+> **Source Link:** https://openverse.org/image/26ccf06f-060e-4b05-9a4d-66ac11124b66?q=phillie%20phanatic
+
+> **Filename:** guy.png
+> **Name:** wet guy
+> **Author:** marcostetter
+> **License:** CC BY-SA 2.0 
+> **Source Link:** https://openverse.org/image/e66c818f-f3b9-4e1c-acd1-f5d3cd1ceed4?q=wet%20guy
+
+> **Filename:** spaghettijones.png
+> **Name:** Cowboy
+> **Author:** Larry Lamsa
+> **License:** CC BY 2.0) 
+> **Source Link:** https://www.flickr.com/photos/larry1732/3827067686
+> **Derivative of:** https://www.flickr.com/photos/larry1732/3827067686
+> **Additional Notes:** Edited in photoshop.
+
+> **Filename:** elmo3.png
+> **Name:** Tickle Me Elmo Extreme
+> **Author:** @cdharrison
+> **License:**  CC BY-SA 2.0 
+> **Source Link:** https://openverse.org/image/80491fca-e553-4680-93ae-0272f204199f?q=tickle%20me%20elmo
+
+> **Filename:** sealsky.png
+> **Name:** sky
+> **Author:** waldemarjan
+> **License:** Public domain
+> **Source Link:** https://openverse.org/image/080e6a16-b55b-48fb-84eb-2c49ed2fdc76?q=sky
+> **Derivative of:** https://openverse.org/image/080e6a16-b55b-48fb-84eb-2c49ed2fdc76?q=sky
+> **Additional Notes:** Edited in photoshop.
+
+> SCP-8000 - SCP-JPサンドボックスⅢ
+> CC BY-SA 3.0
+> http://scp-jp-sandbox3.wikidot.com/draft:7743579-12-e75f
+
+[[include :scp-wiki:component:license-box-end]]
+[[/=]]
+
