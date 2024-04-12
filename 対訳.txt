@@ -304,7 +304,7 @@ As of documentation, SCP-8000 is one of two living beings on Earth.
 **ラグー:** ちょっと待てよ。
 
 **SCP-8000:** Yes, yes. 'How could you ever trust me?' Ask me whatever you want, and I will be truthful.
-**SCP-8000:** はいはい、『信用できるわけがない』って言いたいんでしょ？何でも質問してよ。そしたら正直に答えるから。
+**SCP-8000:** はいはい、「信用できるわけがない」って言いたいんでしょ？何でも質問してよ。そしたら正直に答えるから。
 
 //SCP-8000 raises its right flipper.//
 //SCP-8000は右ヒレを上げる。//
@@ -716,6 +716,7 @@ Dr. Cole Thereven
 
 **Blank:** Paul, you need to hear it. The fact of life is that there will be peaks and valleys. You think you reached a very, very high peak, and now you're back to a regular old valley, and you're not used to it because it's low in comparison. It's not the end of the world unless you let it be.
 **ブランク:** ポール、今の君にはこれが必要なんだ。人生、山あり谷ありだ。遥かなる頂に達したかと思ったのに、今は平凡の谷に戻っている。頂に比べると低く感じるから、慣れないんだ。君が諦めない限り、世界が終わるわけじゃない。
+
 **Cimmerian:** Randall?
 **シメリアン:** ランドール。
 
@@ -1118,7 +1119,7 @@ GUIインターフェースを介して、使用者はシーカーが探索す�
 //(O5-7がキーボードを打つ。)//
 
 **O5-7:** we're not governed by the draconian rules of hipaa.
-**O5-7:** 我々は[[span class="ruby"]]HIPAA[[span class="rt"]]ヒーパー[[/span]][[/span]][[footnote]]**訳注**: 医療保険の相互運用性と説明責任に関する法律。[[/footnote]]のような細かいルールに縛られているわけではない。
+**O5-7:** 我々は[[span class="ruby"]]HIPAA[[span class="rt"]]ヒーパー[[/span]][[/span]][[footnote]]**訳注**: 米国の医療保険の携行性と責任に関する法律。患者のプライバシー保護などを定めている。[[/footnote]]のような細かいルールに縛られているわけではない。
 
 **O5-13:** {{WE'RE FAR ENOUGH AWAY FROM AFRICA FOR THOSE BIG FREAKS TO BE OF NO ISSUE, SEVEN. GET ON THE SAME PAGE AS EVERYONE ELSE.}}
 **O5-13:** せぶん、ココハかなだデハナイノデスカラ、びーばーナンカ関係アリマセン。急ニ変ナ冗談ヲイワナイデクダサイ。
